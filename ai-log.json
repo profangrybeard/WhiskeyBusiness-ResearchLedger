@@ -170,6 +170,16 @@
       "outcome": "kept",
       "why": "\"This research needs to live adjacent to any and all versions and is it's own product.\"",
       "commits": []
+    },
+    {
+      "id": "L015",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Use Tim's browser to read and file a Newspapers.com clipping he linked.",
+      "produced": "Read the clipping image in Tim's Chrome, not signed in, using a free view. Filed it as 015, a separate entry from 002 because it is a different paper with its own citation, and recorded only what the Bristol run adds: the daily gallon figure, the $20 a load payment, her witness number, the east side of the county, and Fralin's plea date. Updated the lead on 002 that asked for the rest of the story.",
+      "outcome": "",
+      "why": "",
+      "commits": []
     }
   ]
 }

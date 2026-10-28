@@ -287,7 +287,7 @@
       "use": "",
       "leads": [
         "The Blackwater filling station as a meeting point for caravans.",
-        "The story continues past the page. Find the jump for the rest of her testimony."
+        "The story continues past the page. The Bristol run of the same wire story (015) is complete on one page and fills most of the gap."
       ],
       "verify": [
         "Her gallon total runs 65,000 (one supplier, 001), nearly 200,000 (002), 145,000 to 250,000 (003), and 220,000 (004). Pick a sourced number before using one.",
@@ -1237,6 +1237,153 @@
         "Rev. Bob Childress (No. 006) may have witnessed it."
       ],
       "verify": [],
+      "reading": []
+    },
+    {
+      "id": "015",
+      "kind": "clipping",
+      "title": "Woman Rum Pilot Tells Experiences",
+      "outlet": "Evening Herald Courier (Bristol, TN), page 5",
+      "source_date": "1935-05-24",
+      "period": "1925 to 1935",
+      "counties": [
+        "Franklin",
+        "Floyd",
+        "Pittsylvania"
+      ],
+      "people": [
+        "Willie Carter Sharpe",
+        "Floyd Carter",
+        "John Carter",
+        "Charles Sharpe",
+        "Jack Bess",
+        "J. C. Edwards",
+        "P. A. Murphy",
+        "Charles Carter Lee",
+        "Leonard L. Fralin",
+        "T. Roosevelt Smith"
+      ],
+      "themes": [
+        "hauling",
+        "law",
+        "protection",
+        "money",
+        "women"
+      ],
+      "bears_on": [
+        {
+          "feeling": "outlaw",
+          "evidence": "The paper frames her by reputation: the best-known pilot in the state, the diamond that used to sit in her teeth, the hands that shifted high-speed gears."
+        },
+        {
+          "feeling": "outlaw",
+          "evidence": "Her own account of the work: at least 110 gallons a day, with Sharpe paid $20 a load by Jack Bess."
+        },
+        {
+          "feeling": "trust",
+          "scale": "family",
+          "willingness": "",
+          "evidence": "Sharpe testified he married into the Nicholson family in Franklin. She married into the Carters, a Roanoke bootlegger's family."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "hide",
+          "evidence": "After a fruitless raid on a defendant's filling station, someone said the raided party knew the officers were coming."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "condone",
+          "evidence": "A hauler caught with twenty gallons was fined for possession, turned loose without bond, and drove his car home the same day. In neighboring counties officers testified in transporting cases."
+        },
+        {
+          "feeling": "trust",
+          "scale": "state",
+          "willingness": "",
+          "evidence": "State inspectors sent into Franklin were told they could raid anywhere but to look after the east side, the Glade Hill and Union Hall area."
+        }
+      ],
+      "url": "https://www.newspapers.com/article/evening-herald-courier-woman-rum-pilot-t/70242382/",
+      "cite": {
+        "author": "",
+        "title": "Woman Rum Pilot Tells Experiences",
+        "container": "Evening Herald Courier",
+        "place": "Bristol, TN",
+        "publisher": "",
+        "date": "1935-05-24",
+        "pages": "5",
+        "database": "Newspapers.com",
+        "url": "https://www.newspapers.com/article/evening-herald-courier-woman-rum-pilot-t/70242382/",
+        "accessed": "2026-10-28",
+        "type": "newspaper",
+        "archive": ""
+      },
+      "sent_by": "Tim Lindsey",
+      "sent_date": "2026-10-28",
+      "trust": "primary",
+      "summary": [
+        "The same AP wire story as 002, datelined Roanoke May 24, run in Bristol under a different headline. This copy runs complete on one page, so it carries paragraphs 002 lacks. The notes below record only what it adds or changes.",
+        "The subhead says she averaged 100 gallons a day out of Franklin County. The body, in her own testimony, says at least 110 gallons a day.",
+        "Charles Sharpe received $20 a load from Jack Bess, a defendant from Roanoke.",
+        "She was witness No. 165 for the government. She had been working in St. Louis and came back when the trial opened, about a month earlier.",
+        "The diamond filling in her teeth had been pulled a few days before she testified. The paper opens on that detail.",
+        "It calls her a Floyd County girl who went from a five-and-ten cent store into marriage with a Roanoke bootlegger's son.",
+        "Sharpe had testified earlier that he married into the Nicholson family in Franklin, and that she piloted him on a few runs.",
+        "The state inspectors' 1932 raids were ordered by the late Attorney General Sanders at Lee's request. Lee told them to look after the east side of the county, the Glade Hill and Union Hall area.",
+        "Fralin, the caught hauler, pleaded guilty to conspiracy on April 22, 1935. Lee's counsel read a court order fining him for possession. Neither inspector was called before the grand jury.",
+        "This copy lacks the line in 002 about twelve stills cut on one raid. Here the stills line is Edwards' opinion that Lee faced an almost impossible task."
+      ],
+      "numbers": [
+        {
+          "what": "Gallons a day, in the subhead",
+          "value": "100"
+        },
+        {
+          "what": "Gallons a day, in her testimony",
+          "value": "at least 110"
+        },
+        {
+          "what": "Paid to Charles Sharpe per load, by Jack Bess",
+          "value": "$20"
+        },
+        {
+          "what": "Her witness number for the government",
+          "value": "165"
+        },
+        {
+          "what": "Gallons she is credited with piloting",
+          "value": "nearly 200,000"
+        },
+        {
+          "what": "Rum-runners she named",
+          "value": "20"
+        },
+        {
+          "what": "Fralin's guilty plea",
+          "value": "April 22, 1935"
+        }
+      ],
+      "use": "",
+      "leads": [
+        "She was to continue testifying the next morning. Find the May 25, 1935 wire story.",
+        "The Nicholson family in Franklin, which Charles Sharpe married into.",
+        "The east side of Franklin, Glade Hill and Union Hall, as the area officers were steered toward.",
+        "Her years in St. Louis before the trial."
+      ],
+      "verify": [
+        "Headline says 100 gallons a day, body says at least 110. Both are her daily figure, not a total.",
+        "Claude's arithmetic, not the paper's: 110 gallons a day over about five and a half years is roughly 180,000 to 220,000 gallons depending on days worked, which sits near the nearly 200,000 figure. The gallon totals across 001 to 004 still disagree.",
+        "A $20 per load payment with no load size given. Do not convert it to a per gallon price without another source."
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the clipping image on Newspapers.com, read in Tim's browser",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
       "reading": []
     }
   ]
