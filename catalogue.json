@@ -24,9 +24,22 @@
     "citation_style": "MLA 9",
     "feelings": {
       "outlaw": "OUTLAW",
-      "pride": "PRIDE in the product"
+      "pride": "PRIDE in the product",
+      "trust": "Trust, the second pillar (working name)"
     },
-    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches OUTLAW or PRIDE in the product. It is unconfirmed and is not a design idea. What to do with it goes in the use line, which is Tim's."
+    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches OUTLAW, PRIDE in the product, or trust. Trust tags also note the scale (county, state, federal) and, where the source shows one, which of Tim's willingnesses it is. Unconfirmed, and not a design idea. What to do with it goes in the use line, which is Tim's.",
+    "scales": [
+      "county",
+      "state",
+      "federal"
+    ],
+    "willingness": [
+      "assign",
+      "hide",
+      "harbor",
+      "ignore",
+      "condone"
+    ]
   },
   "entries": [
     {
@@ -69,6 +82,24 @@
         {
           "feeling": "outlaw",
           "evidence": "Sharpe as the block car, and as a legend among hill people."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "condone",
+          "evidence": "Protection money paid to the sheriff through his wife."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "hide",
+          "evidence": "A deputy held an arrest warrant until the suspect had been told to clear the liquor off his place."
+        },
+        {
+          "feeling": "trust",
+          "scale": "federal",
+          "willingness": "",
+          "evidence": "A federal grand jury indicts the county's own sheriff, deputies and Commonwealth's Attorney."
         }
       ],
       "url": "https://www.newspapers.com/image/827941122/",
@@ -179,6 +210,24 @@
         {
           "feeling": "outlaw",
           "evidence": "Her path from selling drinks to hauling to piloting."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "hide",
+          "evidence": "A raided filling station where, an inspector said, they knew the officers were coming."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "condone",
+          "evidence": "A hauler caught with twenty gallons paid a fine, was turned loose without bond, and drove his car home the same day."
+        },
+        {
+          "feeling": "trust",
+          "scale": "state",
+          "willingness": "",
+          "evidence": "State prohibition inspectors brought in to raid Franklin at the Commonwealth's Attorney's request, and finding little."
         }
       ],
       "url": "https://www.newspapers.com/image/796379159/",
@@ -359,6 +408,18 @@
         {
           "feeling": "outlaw",
           "evidence": "Women carrying liquor on their bodies, daring officers to search them, and juries that would not convict grandmothers."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "condone",
+          "evidence": "Juries that would not convict mothers and grandmothers."
+        },
+        {
+          "feeling": "trust",
+          "scale": "federal",
+          "willingness": "",
+          "evidence": "The federal Prohibition Bureau hiring women agents in 1922."
         }
       ],
       "url": "https://www.alcoholproblemsandsolutions.org/women-bootleggers-during-prohibition-there-were-many/",
@@ -514,6 +575,12 @@
         {
           "feeling": "outlaw",
           "evidence": "Stills protected by terrain only a horse could reach, and a mountain closed to outsiders except doctors and midwives."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "harbor",
+          "evidence": "A mountain closed to outsiders except doctors and midwives."
         }
       ],
       "url": "http://fbwg-hiking.blogspot.com/2017/04/buffalo-mountain-virginia.html",
@@ -584,6 +651,12 @@
         {
           "feeling": "outlaw",
           "evidence": "A Primitive Baptist funeral with caskets full of liquor. Members could drink it, just not sell it."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "condone",
+          "evidence": "A church whose members could drink it but not sell it."
         }
       ],
       "url": "",
@@ -658,6 +731,24 @@
         {
           "feeling": "pride",
           "evidence": "A convicted hauler's grandson runs a legal distillery today on the family name."
+        },
+        {
+          "feeling": "trust",
+          "scale": "state",
+          "willingness": "",
+          "evidence": "Virginia went dry in 1916, four years before national Prohibition, and set up its ABC board in 1934."
+        },
+        {
+          "feeling": "trust",
+          "scale": "federal",
+          "willingness": "",
+          "evidence": "The 1935 federal conspiracy trial: 23 defendants including a former sheriff, deputies and a prohibition officer."
+        },
+        {
+          "feeling": "trust",
+          "scale": "state",
+          "willingness": "condone",
+          "evidence": "The defense claimed the Commonwealth's Attorney was following the governor's orders. A claim, not a finding."
         }
       ],
       "url": "https://www.visitroanokeva.com/blog/post/local-history-franklin-county-virginia-moonshine-capital-of-the-world/",

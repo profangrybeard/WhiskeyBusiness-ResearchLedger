@@ -10,18 +10,19 @@ const KIND = { clipping: 'Clipping', article: 'Article', scholarship: 'Scholarsh
 const TRUST = { primary: 'Primary', secondary: 'Secondary', family: 'Family', ai: 'AI summary', unread: 'Unread' };
 const USE = { blank: 'Not written', written: 'Written' };
 const CHECKED = { unchecked: 'Not checked', checked: 'Checked by Tim' };
-const FEELING = { outlaw: 'Outlaw', pride: 'Pride in the product', none: 'Neither yet' };
+const FEELING = { outlaw: 'Outlaw', pride: 'Pride in the product', trust: 'Trust', none: 'None yet' };
+const SCALE = { county: 'County', state: 'State', federal: 'Federal' };
 const SORTS = {
   filed: { name: 'Number', key: (e) => e.id },
   source: { name: 'Source date', key: (e) => e.source_date || '9999' },
   period: { name: 'Period covered', key: (e) => (e.period.match(/\d{4}/) || ['9999'])[0] },
   trust: { name: 'Trust', key: (e) => String(Object.keys(TRUST).indexOf(e.trust)) },
 };
-const GROUPS = ['feeling', 'kind', 'trust', 'checked', 'theme', 'county', 'use'];
+const GROUPS = ['feeling', 'scale', 'kind', 'trust', 'checked', 'theme', 'county', 'use'];
 const VIEWS = ['sources', 'docket', 'bibliography', 'questions', 'ailog'];
 const REPO = 'https://github.com/profangrybeard/WhiskeyBusiness-MashEdition/commit/';
 
-const state = { q: '', sort: 'filed', view: 'sources', open: new Set(), feeling: new Set(), kind: new Set(), trust: new Set(), checked: new Set(), theme: new Set(), county: new Set(), use: new Set() };
+const state = { q: '', sort: 'filed', view: 'sources', open: new Set(), feeling: new Set(), scale: new Set(), kind: new Set(), trust: new Set(), checked: new Set(), theme: new Set(), county: new Set(), use: new Set() };
 let data, questions = [], ailog = [];
 
 // ---------- dates and citations ----------
@@ -95,6 +96,7 @@ async function copy(html, text, btn) {
 // ---------- filtering ----------
 
 const valuesOf = {
+  scale: (e) => { const s = [...new Set((e.bears_on || []).filter((b) => b.scale).map((b) => b.scale))]; return s.length ? s : ['none']; },
   feeling: (e) => { const f = [...new Set((e.bears_on || []).map((b) => b.feeling))]; return f.length ? f : ['none']; },
   kind: (e) => [e.kind],
   trust: (e) => [e.trust],
@@ -110,7 +112,7 @@ function matches(e, skip) {
     if (!valuesOf[g](e).some((v) => state[g].has(v))) return false;
   }
   if (state.q) {
-    const hay = [e.title, e.outlet, ...e.people, ...e.counties, ...e.summary, ...e.leads, ...e.verify, e.use, mla(e).text, ...(e.bears_on || []).map((b) => b.feeling + ' ' + b.evidence), ...e.numbers.map((n) => n.what + ' ' + n.value)].join(' ').toLowerCase();
+    const hay = [e.title, e.outlet, ...e.people, ...e.counties, ...e.summary, ...e.leads, ...e.verify, e.use, mla(e).text, ...(e.bears_on || []).map((b) => [b.feeling, b.scale, b.willingness, b.evidence].join(' ')), ...e.numbers.map((n) => n.what + ' ' + n.value)].join(' ').toLowerCase();
     if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
   }
   return true;
@@ -130,11 +132,12 @@ function options(group) {
   if (group === 'use') return Object.entries(USE);
   if (group === 'checked') return Object.entries(CHECKED);
   if (group === 'feeling') return Object.entries(FEELING);
+  if (group === 'scale') return Object.entries(SCALE);
   if (group === 'theme') return data.meta.themes.map((t) => [t, t[0].toUpperCase() + t.slice(1)]);
   return [...new Set(data.entries.flatMap((e) => e.counties))].sort().map((c) => [c, c]);
 }
 
-const LABEL = { feeling: 'Bears on', kind: 'Kind', trust: 'Trust', checked: 'Summary', theme: 'Theme', county: 'County', use: 'Use line' };
+const LABEL = { feeling: 'Bears on', scale: 'Trust scale', kind: 'Kind', trust: 'Trust', checked: 'Summary', theme: 'Theme', county: 'County', use: 'Use line' };
 
 function activeCount() {
   return GROUPS.reduce((a, g) => a + state[g].size, 0) + (state.q ? 1 : 0);
@@ -184,7 +187,7 @@ function provenance(e) {
 function bears(e) {
   const b = e.bears_on || [];
   if (!b.length) return '';
-  return `<div class="bears"><h4>Bears on</h4><ul>${b.map((x) => `<li><span class="feel" data-feel="${esc(x.feeling)}">${esc(x.feeling)}</span> ${esc(x.evidence)}</li>`).join('')}</ul><p class="tagnote">Claude's tagging, unconfirmed. What to make of it goes in the use line.</p></div>`;
+  return `<div class="bears"><h4>Bears on</h4><ul>${b.map((x) => `<li><span class="feel" data-feel="${esc(x.feeling)}">${esc([x.feeling, x.scale, x.willingness].filter(Boolean).join(' · '))}</span> ${esc(x.evidence)}</li>`).join('')}</ul><p class="tagnote">Claude's tagging, unconfirmed. What to make of it goes in the use line.</p></div>`;
 }
 
 function renderSource(e) {
@@ -332,6 +335,7 @@ function renderStats() {
     <button type="button" class="stat" data-go="sources"><b>${all.length}</b><span>sources</span></button>
     <button type="button" class="stat feel-stat" data-feel="outlaw" data-go="feel-outlaw"><b>${feel('outlaw')}</b><span>bear on outlaw</span></button>
     <button type="button" class="stat feel-stat" data-feel="pride" data-go="feel-pride"><b>${feel('pride')}</b><span>bear on pride</span></button>
+    <button type="button" class="stat feel-stat" data-feel="trust" data-go="feel-trust"><b>${feel('trust')}</b><span>bear on trust</span></button>
     <button type="button" class="stat warn" data-go="docket"><b>${verify}</b><span>to verify</span></button>
     <button type="button" class="stat" data-go="unchecked"><b>${checked} of ${all.length}</b><span>checked by Tim</span></button>
     <button type="button" class="stat" data-go="blank"><b>${used} of ${all.length}</b><span>uses written</span></button>

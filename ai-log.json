@@ -112,6 +112,16 @@
       "outcome": "kept",
       "why": "\"Outlaw works and our players can build a fantasy within it whether it is Han Solo or Sharpe or Robin Hood or one of the Franklin brothers...\"",
       "commits": []
+    },
+    {
+      "id": "L009",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Tim set a second pillar: county trust and willingness to cover the player, growing from county to state to federal over 13 years.",
+      "produced": "Logged it in PILLAR, DESIGN and DECISIONS with Tim's words and no name. Added trust as a third lens in the ledger, with scale (county, state, federal) and willingness tags on six sources, and a scale filter.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
     }
   ]
 }
