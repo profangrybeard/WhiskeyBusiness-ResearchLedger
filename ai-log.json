@@ -160,6 +160,16 @@
       "outcome": "kept",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L014",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Make the research its own product in a standalone public repo, with a link to the page, a version and date, and AI attribution in the README.",
+      "produced": "Moved the ledger and its history into WhiskeyBusiness-ResearchLedger with its own CLAUDE.md, filing rules and research decisions. Remapped AI log commit links to this repo. README now opens with the page link, a version and date that every push bumps, and an AI use section in the ESF format. Pages could not be switched on from the session; Tim does that in repo settings.",
+      "outcome": "kept",
+      "why": "\"This research needs to live adjacent to any and all versions and is it's own product.\"",
+      "commits": []
     }
   ]
 }
