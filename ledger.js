@@ -20,7 +20,7 @@ const SORTS = {
 };
 const GROUPS = ['feeling', 'scale', 'kind', 'trust', 'checked', 'theme', 'county', 'use'];
 const VIEWS = ['sources', 'docket', 'bibliography', 'questions', 'ailog'];
-const REPO = 'https://github.com/profangrybeard/__REPO__/commit/';
+const REPO = 'https://github.com/profangrybeard/WhiskeyBusiness-ResearchLedger/commit/';
 
 const state = { q: '', sort: 'filed', view: 'sources', open: new Set(), feeling: new Set(), scale: new Set(), kind: new Set(), trust: new Set(), checked: new Set(), theme: new Set(), county: new Set(), use: new Set() };
 let data, questions = [], ailog = [];
