@@ -102,6 +102,16 @@
       "outcome": "kept",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L008",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Find a less gendered word than SCOUNDREL for a chaotic good smuggler.",
+      "produced": "Four options: OUTLAW, ROGUE, RENEGADE, or keep SCOUNDREL and define it. Noted the bigger mismatch was moral: a scoundrel cheats you, a chaotic good outlaw cheats the law. Leaned OUTLAW, since the 1935 clipping uses it for Sharpe.",
+      "outcome": "kept",
+      "why": "\"Outlaw works and our players can build a fantasy within it whether it is Han Solo or Sharpe or Robin Hood or one of the Franklin brothers...\"",
+      "commits": []
     }
   ]
 }

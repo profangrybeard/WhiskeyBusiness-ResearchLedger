@@ -23,10 +23,10 @@
     ],
     "citation_style": "MLA 9",
     "feelings": {
-      "scoundrel": "SCOUNDREL",
+      "outlaw": "OUTLAW",
       "pride": "PRIDE in the product"
     },
-    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches SCOUNDREL or PRIDE in the product. It is unconfirmed and is not a design idea. What to do with it goes in the use line, which is Tim's."
+    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches OUTLAW or PRIDE in the product. It is unconfirmed and is not a design idea. What to do with it goes in the use line, which is Tim's."
   },
   "entries": [
     {
@@ -59,15 +59,15 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Sheriffs resold seized liquor, sat on warrants until the suspect was warned, and pulled a roadblock so two loads could pass."
         },
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Protection money paid through the sheriff's wife."
         },
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Sharpe as the block car, and as a legend among hill people."
         }
       ],
@@ -173,11 +173,11 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "A tip-off before a raid, a caught hauler fined and driving his car home the same day, stills cut but the men never caught."
         },
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Her path from selling drinks to hauling to piloting."
         }
       ],
@@ -276,7 +276,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Model As rebuilt for hauling: hidden compartments, a kill switch for the brake lights, convoys of up to ten cars."
         }
       ],
@@ -357,7 +357,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Women carrying liquor on their bodies, daring officers to search them, and juries that would not convict grandmothers."
         }
       ],
@@ -441,7 +441,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Cheryl's euphemisms for the family trade: the refreshment business, their own economic development."
         }
       ],
@@ -512,7 +512,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Stills protected by terrain only a horse could reach, and a mountain closed to outsiders except doctors and midwives."
         }
       ],
@@ -582,7 +582,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "A Primitive Baptist funeral with caskets full of liquor. Members could drink it, just not sell it."
         }
       ],
@@ -652,7 +652,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Sugar bought through bakeries as cover, protection money directed by the Commonwealth's Attorney."
         },
         {
@@ -858,7 +858,7 @@
       ],
       "bears_on": [
         {
-          "feeling": "scoundrel",
+          "feeling": "outlaw",
           "evidence": "Jars made for the trade held a cup and a half short of a half gallon."
         },
         {

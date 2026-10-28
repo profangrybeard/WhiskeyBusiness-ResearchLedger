@@ -10,7 +10,7 @@ const KIND = { clipping: 'Clipping', article: 'Article', scholarship: 'Scholarsh
 const TRUST = { primary: 'Primary', secondary: 'Secondary', family: 'Family', ai: 'AI summary', unread: 'Unread' };
 const USE = { blank: 'Not written', written: 'Written' };
 const CHECKED = { unchecked: 'Not checked', checked: 'Checked by Tim' };
-const FEELING = { scoundrel: 'Scoundrel', pride: 'Pride in the product', none: 'Neither yet' };
+const FEELING = { outlaw: 'Outlaw', pride: 'Pride in the product', none: 'Neither yet' };
 const SORTS = {
   filed: { name: 'Number', key: (e) => e.id },
   source: { name: 'Source date', key: (e) => e.source_date || '9999' },
@@ -330,7 +330,7 @@ function renderStats() {
   const feel = (f) => all.filter((e) => valuesOf.feeling(e).includes(f)).length;
   $('#stats').innerHTML = `
     <button type="button" class="stat" data-go="sources"><b>${all.length}</b><span>sources</span></button>
-    <button type="button" class="stat feel-stat" data-feel="scoundrel" data-go="feel-scoundrel"><b>${feel('scoundrel')}</b><span>bear on scoundrel</span></button>
+    <button type="button" class="stat feel-stat" data-feel="outlaw" data-go="feel-outlaw"><b>${feel('outlaw')}</b><span>bear on outlaw</span></button>
     <button type="button" class="stat feel-stat" data-feel="pride" data-go="feel-pride"><b>${feel('pride')}</b><span>bear on pride</span></button>
     <button type="button" class="stat warn" data-go="docket"><b>${verify}</b><span>to verify</span></button>
     <button type="button" class="stat" data-go="unchecked"><b>${checked} of ${all.length}</b><span>checked by Tim</span></button>
