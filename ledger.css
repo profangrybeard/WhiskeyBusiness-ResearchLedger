@@ -258,3 +258,8 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .feel[data-feel="trust"] { color: var(--trust); background: var(--trust-bg); }
 .feel-stat[data-feel="trust"] b { color: var(--trust); }
 .trust[data-trust="fiction"] { background: transparent; color: var(--muted); border-style: dotted; border-color: var(--ink); }
+
+.reading { list-style: none; padding: 0; margin: 0; font-size: 14px; }
+.reading li { padding: 4px 0; border-top: 1px dotted var(--line); }
+.reading b { font-variant-numeric: tabular-nums; margin-right: 6px; }
+.reading .qf { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }

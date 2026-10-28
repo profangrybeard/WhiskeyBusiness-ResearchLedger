@@ -152,6 +152,16 @@
       "outcome": "kept",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L013",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Build the private capture page for book quotes and page numbers.",
+      "produced": "Reading Notes: a private artifact with book, page, quote, Tim's note and lenses, stored in his private data and ordered by page. Copy with citation gives an MLA in-text citation. The three books are loaded. The ledger shows page numbers and Tim's notes, never quote text, and the nightly run syncs them.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
     }
   ]
 }

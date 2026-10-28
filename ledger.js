@@ -119,7 +119,7 @@ function matches(e, skip) {
     if (!valuesOf[g](e).some((v) => state[g].has(v))) return false;
   }
   if (state.q) {
-    const hay = [e.title, e.outlet, ...e.people, ...e.counties, ...e.summary, ...e.leads, ...e.verify, e.use, mla(e).text, ...(e.bears_on || []).map((b) => [b.feeling, b.scale, b.willingness, b.evidence].join(' ')), ...e.numbers.map((n) => n.what + ' ' + n.value)].join(' ').toLowerCase();
+    const hay = [e.title, e.outlet, ...e.people, ...e.counties, ...e.summary, ...e.leads, ...e.verify, e.use, mla(e).text, ...(e.reading || []).map((r) => 'p. ' + r.page + ' ' + (r.note || '')), ...(e.bears_on || []).map((b) => [b.feeling, b.scale, b.willingness, b.evidence].join(' ')), ...e.numbers.map((n) => n.what + ' ' + n.value)].join(' ').toLowerCase();
     if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
   }
   return true;
@@ -213,6 +213,7 @@ function renderSource(e) {
     e.numbers.length && `<span>${e.numbers.length} figure${e.numbers.length > 1 ? 's' : ''}</span>`,
     e.leads.length && `<span>${e.leads.length} lead${e.leads.length > 1 ? 's' : ''}</span>`,
     e.verify.length && `<span class="v">${e.verify.length} to verify</span>`,
+    (e.reading || []).length && `<span>${e.reading.length} page note${e.reading.length > 1 ? 's' : ''}</span>`,
     unchecked ? '<span class="unchecked" title="Summary not checked against the original">unchecked</span>' : '<span class="checked">checked</span>',
     e.use ? '<span class="use-set">use</span>' : '<span class="use-blank">use</span>',
   ].filter(Boolean).join('');
@@ -251,6 +252,7 @@ function renderSource(e) {
         <button type="button" class="text-btn" data-copy="${esc(e.id)}">Copy citation</button>
         ${e.cite && !e.cite.archive && e.cite.url ? '<span class="arch">No archived copy yet.</span>' : ''}
       </div>
+      ${(e.reading || []).length ? `<div class="use"><h4>Reading notes · Tim</h4><ul class="reading">${[...e.reading].sort((x, y) => (parseInt(x.page) || 0) - (parseInt(y.page) || 0)).map((r) => `<li><b>p. ${esc(r.page)}</b> ${esc(r.note || '')}${r.quote_on_file ? ' <span class="qf">quote on file</span>' : ''}${(r.lenses || []).map((l) => ` <span class="feel" data-feel="${esc(l)}">${esc(l)}</span>`).join('')}</li>`).join('')}</ul></div>` : ''}
       <div class="use"><h4>Use in the game</h4>${e.use ? `<p>${esc(e.use)}</p>` : '<p class="blank">Not written yet.</p>'}</div>
       <div class="use"><h4>Design links</h4>${design}</div>
     </div>`;
