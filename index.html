@@ -37,13 +37,18 @@
 
   <div class="preamble">
     <p>Each overt act below is one source: a clipping, an article, a family note or a place. Summaries are paraphrased notes. Follow the title link to read the original.</p>
-    <p>The stamp says how far to trust it. The blank line under each act is for how it gets used in the game.</p>
+    <p>The stamp says how far to trust it. The blank line under each act is for how it gets used in the game. The open docket gathers every lead and every claim still to verify.</p>
   </div>
 
   <div class="tally" id="tally" aria-live="polite"></div>
+  <nav class="views" id="views" aria-label="Views">
+    <button type="button" class="view" data-view="acts" aria-pressed="true">Overt acts</button>
+    <button type="button" class="view" data-view="docket" aria-pressed="false">Open docket</button>
+  </nav>
   <form class="filters" id="filters" onsubmit="return false"></form>
 
   <div id="acts"></div>
+  <div id="docket" hidden></div>
 
   <footer>Source of truth: research/catalogue.json. Clippings link to Newspapers.com and are not copied here.</footer>
 </main>

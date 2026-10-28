@@ -1,0 +1,17 @@
+{
+  "about": "Emails already looked at for the research ledger. See docs/RESEARCH-FILING.md.",
+  "messages": [
+    { "id": "1a17055bd2eae3da", "date": "2026-10-24", "status": "filed", "entry": "008" },
+    { "id": "1a170a4dc74fdf0a", "date": "2026-10-25", "status": "filed", "entry": "010" },
+    { "id": "1a17125ee641d509", "date": "2026-10-25", "status": "filed", "entry": "003" },
+    { "id": "1a17133f8f751d1e", "date": "2026-10-25", "status": "filed", "entry": "004" },
+    { "id": "1a172bfea360aea3", "date": "2026-10-25", "status": "filed", "entry": "006" },
+    { "id": "1a173318b2f86af8", "date": "2026-10-25", "status": "merged", "entry": "003", "note": "Second send of the Sharpe article, with Cheryl's Model A note." },
+    { "id": "1a17ded69dd8f49e", "date": "2026-10-27", "status": "filed", "entry": "009" },
+    { "id": "1a17e6cc93c96eee", "date": "2026-10-27", "status": "filed", "entry": "005" },
+    { "id": "1a17f2be4297cef4", "date": "2026-10-27", "status": "filed", "entry": "007" },
+    { "id": "1a17f2bcf766d8ea", "date": "2026-10-27", "status": "skipped", "note": "Duplicate of the Primitive Baptists search link, no note." },
+    { "id": "1a17b4a608976de1", "date": "2026-10-27", "status": "filed", "entry": "001" },
+    { "id": "1a1829850fc3aaf2", "date": "2026-10-28", "status": "filed", "entry": "002" }
+  ]
+}
