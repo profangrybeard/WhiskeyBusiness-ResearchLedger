@@ -257,3 +257,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 :root[data-theme="dark"] { --trust: #a9bce6; --trust-bg: #1f2740; }
 .feel[data-feel="trust"] { color: var(--trust); background: var(--trust-bg); }
 .feel-stat[data-feel="trust"] b { color: var(--trust); }
+.trust[data-trust="fiction"] { background: transparent; color: var(--muted); border-style: dotted; border-color: var(--ink); }

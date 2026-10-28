@@ -8,7 +8,8 @@
       "secondary": "A later history, article or museum page. Check its sources.",
       "family": "Family memory or family research. Real, but unchecked.",
       "ai": "A pasted AI summary. Verify every line before it counts.",
-      "unread": "Logged, not read yet."
+      "unread": "Logged, not read yet.",
+      "fiction": "A novel or other fiction. Its numbers and events are story. Use for texture, never as evidence."
     },
     "themes": [
       "hauling",
@@ -173,7 +174,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "002",
@@ -298,7 +300,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "003",
@@ -384,7 +387,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "004",
@@ -480,7 +484,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "005",
@@ -550,7 +555,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "006",
@@ -633,7 +639,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "007",
@@ -698,7 +705,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "008",
@@ -823,7 +831,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "009",
@@ -882,7 +891,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "010",
@@ -929,7 +939,8 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
     },
     {
       "id": "011",
@@ -1004,7 +1015,229 @@
         "checked_by_tim": "",
         "checked_on": ""
       },
-      "design": []
+      "design": [],
+      "reading": []
+    },
+    {
+      "id": "012",
+      "kind": "book",
+      "title": "The Wettest County in the World: A Novel Based on a True Story",
+      "outlet": "Scribner, Matt Bondurant",
+      "source_date": "2008",
+      "period": "1920s to 1930s",
+      "counties": [
+        "Franklin"
+      ],
+      "people": [
+        "Jack Bondurant",
+        "Forrest Bondurant",
+        "Howard Bondurant",
+        "Sherwood Anderson"
+      ],
+      "themes": [
+        "hauling",
+        "law",
+        "family",
+        "place"
+      ],
+      "bears_on": [
+        {
+          "feeling": "outlaw",
+          "evidence": "Three brothers making and running liquor in Franklin County, written by a grandson from family stories and court records."
+        },
+        {
+          "feeling": "trust",
+          "scale": "family",
+          "willingness": "",
+          "evidence": "A family business and the brothers' standing against rivals and the law."
+        }
+      ],
+      "url": "https://en.wikipedia.org/wiki/The_Wettest_County_in_the_World",
+      "cite": {
+        "author": "Bondurant, Matt",
+        "title": "The Wettest County in the World: A Novel Based on a True Story",
+        "container": "",
+        "place": "",
+        "publisher": "Scribner",
+        "date": "2008",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "type": "book",
+        "archive": ""
+      },
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the Wikipedia article on the novel, not the book itself",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "sent_by": "",
+      "sent_date": "",
+      "trust": "fiction",
+      "summary": [
+        "A historical crime novel set in Franklin County during Prohibition and the Depression, following the Bondurant brothers, Jack, Forrest and Howard.",
+        "A second storyline follows Sherwood Anderson in 1934, the writer who covered the conspiracy trial.",
+        "The author is Jack Bondurant's grandson and drew on family stories, archives and court records. It is fiction: its numbers and events are story.",
+        "Tim owns it in paperback. His reading notes go in the reading notes for this entry."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "The source of the game's title idea. The Wickersham line about the wettest spot in the nation is in No. 001."
+      ],
+      "verify": [
+        "Anything taken from the novel as fact has to be checked against Thompson (No. 013) or a primary source."
+      ],
+      "reading": []
+    },
+    {
+      "id": "013",
+      "kind": "scholarship",
+      "title": "Spirits of Just Men: Mountaineers, Liquor Bosses, and Lawmen in the Moonshine Capital of the World",
+      "outlet": "University of Illinois Press, Charles D. Thompson Jr.",
+      "source_date": "2011",
+      "period": "1920s to 1935",
+      "counties": [
+        "Franklin"
+      ],
+      "people": [
+        "Charles Carter Lee",
+        "Willie Carter Sharpe"
+      ],
+      "themes": [
+        "law",
+        "protection",
+        "money",
+        "hauling",
+        "place"
+      ],
+      "bears_on": [
+        {
+          "feeling": "outlaw",
+          "evidence": "A history of Franklin County moonshining built around the 1935 conspiracy trial."
+        },
+        {
+          "feeling": "trust",
+          "scale": "county",
+          "willingness": "",
+          "evidence": "How county officials, liquor bosses and mountaineers covered for one another, drawn from oral histories and local archives."
+        },
+        {
+          "feeling": "trust",
+          "scale": "federal",
+          "willingness": "",
+          "evidence": "The federal case that exposed the county's arrangement."
+        }
+      ],
+      "url": "https://www.press.uillinois.edu/books/?id=p078088",
+      "cite": {
+        "author": "Thompson, Charles D., Jr.",
+        "title": "Spirits of Just Men: Mountaineers, Liquor Bosses, and Lawmen in the Moonshine Capital of the World",
+        "container": "",
+        "place": "",
+        "publisher": "University of Illinois Press",
+        "date": "2011",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "type": "book",
+        "archive": ""
+      },
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the publisher's description, not the book itself",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "sent_by": "",
+      "sent_date": "",
+      "trust": "secondary",
+      "summary": [
+        "An academic history of 1930s moonshining in Franklin County, Virginia, built around the Great Moonshine Conspiracy Trial of 1935.",
+        "Uses the trial to look at Blue Ridge culture, the moonshine economy, and politics, drawing on oral histories and local archives.",
+        "Traces how a farm commodity became a sought-after spirit.",
+        "304 pages. The best source for real numbers on the Franklin trade."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Check the 001 indictment details and Sharpe's gallon totals against Thompson's account.",
+        "The book's title comes from the same Hebrews line that closes Frank Lindsey's 1903 obituary in the family binder."
+      ],
+      "verify": [],
+      "reading": []
+    },
+    {
+      "id": "014",
+      "kind": "book",
+      "title": "Book on the 1912 Hillsville Courthouse shooting",
+      "outlet": "Title and author not yet known",
+      "source_date": "",
+      "period": "1912",
+      "counties": [
+        "Carroll"
+      ],
+      "people": [
+        "Floyd Allen"
+      ],
+      "themes": [
+        "law",
+        "family",
+        "place"
+      ],
+      "bears_on": [
+        {
+          "feeling": "trust",
+          "scale": "family",
+          "willingness": "",
+          "evidence": "A Carroll County family against the court. Unread, so this is only what the shooting is known for."
+        }
+      ],
+      "url": "",
+      "cite": {
+        "author": "",
+        "title": "",
+        "container": "",
+        "place": "",
+        "publisher": "",
+        "date": "",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "type": "book",
+        "archive": ""
+      },
+      "ai": {
+        "summarized_by": "",
+        "summarized_on": "",
+        "from": "",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "sent_by": "",
+      "sent_date": "",
+      "trust": "unread",
+      "summary": [
+        "Tim's father has this book at his cabin. Not read yet. Title and author to add."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Get the title and author for the citation.",
+        "A Lindsey sat on the jury that convicted Floyd Allen on the day of the shooting.",
+        "Rev. Bob Childress (No. 006) may have witnessed it."
+      ],
+      "verify": [],
+      "reading": []
     }
   ]
 }

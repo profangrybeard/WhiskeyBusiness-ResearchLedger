@@ -7,7 +7,7 @@ const $ = (sel, el = document) => el.querySelector(sel);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 const KIND = { clipping: 'Clipping', article: 'Article', scholarship: 'Scholarship', book: 'Book', family: 'Family note', place: 'Place', photo: 'Photo', person: 'Person' };
-const TRUST = { primary: 'Primary', secondary: 'Secondary', family: 'Family', ai: 'AI summary', unread: 'Unread' };
+const TRUST = { primary: 'Primary', secondary: 'Secondary', family: 'Family', fiction: 'Fiction', ai: 'AI summary', unread: 'Unread' };
 const USE = { blank: 'Not written', written: 'Written' };
 const CHECKED = { unchecked: 'Not checked', checked: 'Checked by Tim' };
 const FEELING = { outlaw: 'Outlaw', pride: 'Pride in the product', trust: 'Trust', none: 'None yet' };
@@ -51,6 +51,13 @@ function mla(e) {
   const end = (s) => (/[.?!]$/.test(s) ? s : s + '.');
 
   if (c.author) push(esc(end(c.author)), end(c.author));
+  if (c.type === 'book') {
+    if (!c.title) { push('Title not yet known.', 'Title not yet known.'); return { html: parts.map((p) => p[0]).join(' '), text: parts.map((p) => p[1]).join(' ') }; }
+    push(`<i>${esc(c.title)}</i>.`, `${c.title}.`);
+    const pub = [c.publisher, c.date].filter(Boolean).join(', ');
+    if (pub) push(esc(pub + '.'), pub + '.');
+    return { html: parts.map((p) => p[0]).join(' '), text: parts.map((p) => p[1]).join(' ') };
+  }
   if (c.title) {
     const t = end(c.title);
     push(`“${esc(t)}”`, `“${t}”`);

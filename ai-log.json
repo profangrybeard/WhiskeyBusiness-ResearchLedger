@@ -142,6 +142,16 @@
       "outcome": "kept",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L012",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Tie the book references into the ledger, with a place to put quotes and page numbers while reading.",
+      "produced": "Added the three books as entries 012 to 014, with publisher and year checked against the publisher and Wikipedia pages. Added a fiction trust tier for the Bondurant novel. Corrected an earlier chat claim that Thompson's book is a UNC Press title: it is University of Illinois Press. Asked Tim where quote text should live before building capture.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
     }
   ]
 }
