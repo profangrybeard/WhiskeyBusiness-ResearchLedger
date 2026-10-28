@@ -7,51 +7,46 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 <link rel="stylesheet" href="ledger.css">
 </head>
 <body>
-<main class="sheet">
-  <div class="gutter" id="gutter" aria-hidden="true"></div>
-
-  <p class="court">In the District Court of the United States<br>for the Western District of Virginia</p>
-
-  <div class="caption">
-    <div class="parties">
-      In the matter of
-      <strong>Whiskey Business</strong>
-      Research ledger
-    </div>
-    <div class="brace" aria-hidden="true">)
-)
-)
-)
-)</div>
-    <div class="docket">
-      <div>Docket No. WB-1</div>
-      <div>Carroll County and neighbors</div>
-      <div>1916 to 1935</div>
-      <div>Last entry <span id="updated"></span></div>
-    </div>
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">Whiskey Business</p>
+    <h1>Research Ledger</h1>
+    <p class="lede">Sources behind the game, one numbered entry each. Summaries are paraphrased notes with a link to the original. The use line on every entry is Tim's to write.</p>
+    <div class="stats" id="stats"></div>
   </div>
+</header>
 
-  <div class="preamble">
-    <p>Each overt act below is one source: a clipping, an article, a family note or a place. Summaries are paraphrased notes. Follow the title link to read the original.</p>
-    <p>The stamp says how far to trust it. The blank line under each act is for how it gets used in the game. The open docket gathers every lead and every claim still to verify.</p>
-  </div>
+<div class="wrap layout">
+  <aside class="rail">
+    <details class="filters" id="filters-panel">
+      <summary>Filters <span id="filter-count"></span></summary>
+      <form id="filters" onsubmit="return false"></form>
+    </details>
+  </aside>
 
-  <div class="tally" id="tally" aria-live="polite"></div>
-  <nav class="views" id="views" aria-label="Views">
-    <button type="button" class="view" data-view="acts" aria-pressed="true">Overt acts</button>
-    <button type="button" class="view" data-view="docket" aria-pressed="false">Open docket</button>
-  </nav>
-  <form class="filters" id="filters" onsubmit="return false"></form>
-
-  <div id="acts"></div>
-  <div id="docket" hidden></div>
-
-  <footer>Source of truth: research/catalogue.json. Clippings link to Newspapers.com and are not copied here.</footer>
-</main>
+  <main class="main">
+    <div class="toolbar">
+      <div class="tabs" id="views" role="tablist">
+        <button type="button" role="tab" data-view="sources" aria-selected="true">Sources</button>
+        <button type="button" role="tab" data-view="docket" aria-selected="false">Open docket</button>
+      </div>
+      <div class="tools">
+        <span class="shown" id="shown" aria-live="polite"></span>
+        <label class="sort" for="sort">Sort
+          <select id="sort"></select>
+        </label>
+        <button type="button" class="text-btn" id="expand">Expand all</button>
+      </div>
+    </div>
+    <div id="list"></div>
+    <div id="docket" hidden></div>
+    <p class="foot">Source of truth: research/catalogue.json. Last entry <span id="updated"></span>. Clippings link out to Newspapers.com and are not copied here.</p>
+  </main>
+</div>
 <script type="module" src="ledger.js"></script>
 </body>
 </html>
