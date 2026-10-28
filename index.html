@@ -15,7 +15,7 @@
   <div class="wrap">
     <p class="eyebrow">Whiskey Business</p>
     <h1>Research Ledger</h1>
-    <p class="lede">Sources behind the game, one numbered entry each. Summaries are paraphrased notes with a link to the original. The use line on every entry is Tim's to write.</p>
+    <p class="lede">Sources behind the game, one numbered entry each. Summaries are notes written by Claude and marked unchecked until Tim reads the original. Citations are MLA 9. The use line, design links and questions are Tim's to write.</p>
     <div class="stats" id="stats"></div>
   </div>
 </header>
@@ -33,6 +33,9 @@
       <div class="tabs" id="views" role="tablist">
         <button type="button" role="tab" data-view="sources" aria-selected="true">Sources</button>
         <button type="button" role="tab" data-view="docket" aria-selected="false">Open docket</button>
+        <button type="button" role="tab" data-view="bibliography" aria-selected="false">Bibliography</button>
+        <button type="button" role="tab" data-view="questions" aria-selected="false">Questions</button>
+        <button type="button" role="tab" data-view="ailog" aria-selected="false">AI log</button>
       </div>
       <div class="tools">
         <span class="shown" id="shown" aria-live="polite"></span>
@@ -44,6 +47,9 @@
     </div>
     <div id="list"></div>
     <div id="docket" hidden></div>
+    <div id="biblio" hidden></div>
+    <div id="questions" hidden></div>
+    <div id="ailog" hidden></div>
     <p class="foot">Source of truth: research/catalogue.json. Last entry <span id="updated"></span>. Clippings link out to Newspapers.com and are not copied here.</p>
   </main>
 </div>

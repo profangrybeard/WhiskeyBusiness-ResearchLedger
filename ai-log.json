@@ -1,0 +1,77 @@
+{
+  "about": "AI use record for the research ledger, kept in the AI 201 ESF format until SCAD sets a policy. Direction Log entries record what was asked, what the AI produced, and what Tim kept, changed or rejected. Records of Resistance record moments Tim rejected or significantly revised AI output. The why field is Tim's words only: quoted when he said it, blank until he writes it.",
+  "tool": "Claude (Opus 5.5) in claude.ai, working in the WhiskeyBusiness-MashEdition repo",
+  "entries": [
+    {
+      "id": "L001",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Scan the last week of email and pull everything from Cheryl Lindsey for the project.",
+      "produced": "A triage of 12 emails from two addresses: the Stoots family connection, Buffalo Mountain notes, Willie Carter Sharpe material, two clipping PDFs, and smaller links. Flagged a pasted AI summary that put Austinville in the wrong county.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
+    },
+    {
+      "id": "L002",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Design a research resource, using the 90s DGA catalogue as the model.",
+      "produced": "A static page with one JSON file as source of truth, a use field only Tim writes, and a public and private split for family material. Proposed an indictment-ledger look.",
+      "outcome": "changed",
+      "why": "",
+      "commits": [
+        "95970d1"
+      ]
+    },
+    {
+      "id": "R001",
+      "date": "2026-10-28",
+      "type": "resistance",
+      "asked": "Design a research resource from Cheryl's material.",
+      "produced": "A public case file plus a private family binder, to keep family names off GitHub Pages.",
+      "outcome": "rejected",
+      "instead": "One public ledger. Ancestors and public-source names allowed, living relatives left out, binder notes kept in the private Project. Logged in DECISIONS.md.",
+      "why": "\"i think i was in IP mode and not research mode - this is research\"",
+      "commits": [
+        "005621c"
+      ]
+    },
+    {
+      "id": "L003",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Add sorting, filtering and filing tools. All three options.",
+      "produced": "Sort and new filters, an open docket of leads and verify items, a filing guide, and a nightly scheduled run that files Cheryl's new emails.",
+      "outcome": "kept",
+      "why": "",
+      "commits": [
+        "26afe22"
+      ]
+    },
+    {
+      "id": "R002",
+      "date": "2026-10-28",
+      "type": "resistance",
+      "asked": "Build the ledger in the indictment-ledger direction.",
+      "produced": "The first design: typewriter type throughout, a pleading-paper line gutter, a court caption, rotated trust stamps.",
+      "outcome": "rejected",
+      "instead": "A redesign built around scanning: filter rail with counts, numbered expandable rows, graded trust tags, the docket as a table.",
+      "why": "\"it looks like something i designed in 2003 as an announcement for my sons birth.\" \"make this look like it is designed with intention and serves it's mechanical purpose first and style supports that.\"",
+      "commits": [
+        "5ce97c3"
+      ]
+    },
+    {
+      "id": "L004",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Look at the ledger through an academic lens. What does an MFA game thesis need from it?",
+      "produced": "A gap list: AI provenance on every summary, full citations, research-to-design links, scholarship, evaluation separate from summary, research questions, consent for family material.",
+      "outcome": "changed",
+      "instead": "Tim set the citation style (new and light, MLA 9), the AI documentation practice (AI 201 ESF), and deferred research questions to his own weekend work.",
+      "why": "",
+      "commits": []
+    }
+  ]
+}

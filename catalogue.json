@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Research Ledger",
-    "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are paraphrased notes, not copies. The use field is Tim's alone.",
+    "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are notes written by Claude and paraphrased, not copies; each records whether Tim has checked it against the original. The use and design fields are Tim's alone.",
     "updated": "2026-10-28",
     "trust": {
       "primary": "Written at the time. Newspapers, court records, census.",
@@ -10,7 +10,18 @@
       "ai": "A pasted AI summary. Verify every line before it counts.",
       "unread": "Logged, not read yet."
     },
-    "themes": ["hauling", "law", "protection", "money", "women", "church", "craft", "place", "family"]
+    "themes": [
+      "hauling",
+      "law",
+      "protection",
+      "money",
+      "women",
+      "church",
+      "craft",
+      "place",
+      "family"
+    ],
+    "citation_style": "MLA 9"
   },
   "entries": [
     {
@@ -20,10 +31,42 @@
       "outlet": "Richmond Times-Dispatch, page 11",
       "source_date": "1935-02-08",
       "period": "1928 to 1934",
-      "counties": ["Franklin"],
-      "people": ["Willie Carter Sharpe", "J. P. Hodges", "George S. Hodges", "Walter \"Peg\" Hatcher", "Charles C. Greer", "Charles Carter Lee", "T. Roosevelt Smith", "Leo C. Mays", "Leonard L. Fralin"],
-      "themes": ["law", "protection", "hauling", "money", "women"],
+      "counties": [
+        "Franklin"
+      ],
+      "people": [
+        "Willie Carter Sharpe",
+        "J. P. Hodges",
+        "George S. Hodges",
+        "Walter \"Peg\" Hatcher",
+        "Charles C. Greer",
+        "Charles Carter Lee",
+        "T. Roosevelt Smith",
+        "Leo C. Mays",
+        "Leonard L. Fralin"
+      ],
+      "themes": [
+        "law",
+        "protection",
+        "hauling",
+        "money",
+        "women"
+      ],
       "url": "https://www.newspapers.com/image/827941122/",
+      "cite": {
+        "author": "",
+        "title": "Franklin's 'Outlaw' Heroine Is Caught in Liquor Ring Net",
+        "container": "Richmond Times-Dispatch",
+        "place": "",
+        "publisher": "",
+        "date": "1935-02-08",
+        "pages": "11",
+        "database": "Newspapers.com",
+        "url": "https://www.newspapers.com/image/827941122/",
+        "accessed": "2026-10-26",
+        "type": "newspaper",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-26",
       "trust": "primary",
@@ -39,12 +82,30 @@
         "November 17, 1932: the Commonwealth's Attorney is charged with taking $50 from a defendant."
       ],
       "numbers": [
-        { "what": "Overt acts in the indictment", "value": "68" },
-        { "what": "Seized liquor resold by the sheriff, fall 1928", "value": "150 gallons" },
-        { "what": "Seized liquor taken from Rocky Mount storage and sold", "value": "25 gallons" },
-        { "what": "Single protection payment", "value": "$50" },
-        { "what": "Delivered to Sharpe by one supplier, through May 11, 1931", "value": "about 65,000 gallons" },
-        { "what": "One receiver's intake from six suppliers", "value": "4,000 to 15,000 gallons each, 36,800 total" }
+        {
+          "what": "Overt acts in the indictment",
+          "value": "68"
+        },
+        {
+          "what": "Seized liquor resold by the sheriff, fall 1928",
+          "value": "150 gallons"
+        },
+        {
+          "what": "Seized liquor taken from Rocky Mount storage and sold",
+          "value": "25 gallons"
+        },
+        {
+          "what": "Single protection payment",
+          "value": "$50"
+        },
+        {
+          "what": "Delivered to Sharpe by one supplier, through May 11, 1931",
+          "value": "about 65,000 gallons"
+        },
+        {
+          "what": "One receiver's intake from six suppliers",
+          "value": "4,000 to 15,000 gallons each, 36,800 total"
+        }
       ],
       "use": "",
       "leads": [
@@ -53,7 +114,15 @@
       ],
       "verify": [
         "The cut-off column mentions a T. J. Richards who was shot. Confirm who and when."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the clipping PDF",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "002",
@@ -62,10 +131,42 @@
       "outlet": "The Daily Review (Clifton Forge, VA), page 1",
       "source_date": "1935-05-24",
       "period": "1925 to 1932",
-      "counties": ["Franklin", "Floyd"],
-      "people": ["Willie Carter Sharpe", "Floyd Carter", "John Carter", "Charles Sharpe", "Jack Bess", "J. C. Edwards", "P. A. Murphy", "Charles Carter Lee", "Leonard L. Fralin"],
-      "themes": ["hauling", "law", "protection", "women"],
+      "counties": [
+        "Franklin",
+        "Floyd"
+      ],
+      "people": [
+        "Willie Carter Sharpe",
+        "Floyd Carter",
+        "John Carter",
+        "Charles Sharpe",
+        "Jack Bess",
+        "J. C. Edwards",
+        "P. A. Murphy",
+        "Charles Carter Lee",
+        "Leonard L. Fralin"
+      ],
+      "themes": [
+        "hauling",
+        "law",
+        "protection",
+        "women"
+      ],
       "url": "https://www.newspapers.com/image/796379159/",
+      "cite": {
+        "author": "",
+        "title": "Met Success in Her Work: Woman Rum Runner Is Witness at Trial in Roanoke",
+        "container": "The Daily Review",
+        "place": "Clifton Forge, VA",
+        "publisher": "",
+        "date": "1935-05-24",
+        "pages": "1",
+        "database": "Newspapers.com",
+        "url": "https://www.newspapers.com/image/796379159/",
+        "accessed": "2026-10-28",
+        "type": "newspaper",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-28",
       "trust": "primary",
@@ -81,11 +182,26 @@
         "One inspector said he cut twelve stills on a single raid in the mountains. His summary of the job: \"you could catch the stills, but you couldn't catch the men.\""
       ],
       "numbers": [
-        { "what": "Gallons Sharpe is credited with piloting", "value": "nearly 200,000" },
-        { "what": "Rum-runners she named on the stand", "value": "20" },
-        { "what": "Her piloting years out of Franklin", "value": "1926 to July 1931" },
-        { "what": "Load found on a caught hauler", "value": "20 gallons" },
-        { "what": "Stills cut on one raid", "value": "12" }
+        {
+          "what": "Gallons Sharpe is credited with piloting",
+          "value": "nearly 200,000"
+        },
+        {
+          "what": "Rum-runners she named on the stand",
+          "value": "20"
+        },
+        {
+          "what": "Her piloting years out of Franklin",
+          "value": "1926 to July 1931"
+        },
+        {
+          "what": "Load found on a caught hauler",
+          "value": "20 gallons"
+        },
+        {
+          "what": "Stills cut on one raid",
+          "value": "12"
+        }
       ],
       "use": "",
       "leads": [
@@ -95,19 +211,55 @@
       "verify": [
         "Her gallon total runs 65,000 (one supplier, 001), nearly 200,000 (002), 145,000 to 250,000 (003), and 220,000 (004). Pick a sourced number before using one.",
         "She says she piloted until July 1931. Other accounts put her arrest in May 1931."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the clipping PDF",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "003",
       "kind": "article",
       "title": "Willie Carter Sharpe: The Rum-Running Queen of Virginia",
-      "outlet": "Blue Ridge Tales",
-      "source_date": "",
+      "outlet": "Blue Ridge Tales, Wayne Jordan",
+      "source_date": "2024-08-03",
       "period": "1921 to 1935",
-      "counties": ["Floyd", "Franklin"],
-      "people": ["Willie Carter Sharpe", "Floyd Carter", "John Carter", "Thomas Bailey", "Sherwood Anderson"],
-      "themes": ["hauling", "women", "law", "craft"],
+      "counties": [
+        "Floyd",
+        "Franklin"
+      ],
+      "people": [
+        "Willie Carter Sharpe",
+        "Floyd Carter",
+        "John Carter",
+        "Thomas Bailey",
+        "Sherwood Anderson"
+      ],
+      "themes": [
+        "hauling",
+        "women",
+        "law",
+        "craft"
+      ],
       "url": "https://blueridgetales.com/willie-carter-sharpe-the-rum-running-queen-of-virginia/",
+      "cite": {
+        "author": "Jordan, Wayne",
+        "title": "Willie Carter Sharpe: The Rum-Running Queen of Virginia",
+        "container": "Blue Ridge Tales",
+        "place": "",
+        "publisher": "",
+        "date": "2024-08-03",
+        "pages": "",
+        "database": "",
+        "url": "https://blueridgetales.com/willie-carter-sharpe-the-rum-running-queen-of-virginia/",
+        "accessed": "2026-10-28",
+        "type": "web",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-24",
       "trust": "secondary",
@@ -119,9 +271,18 @@
         "Ties her to the 1935 trial and to Sherwood Anderson's novel Kit Brandon."
       ],
       "numbers": [
-        { "what": "Cars in a convoy", "value": "up to 10" },
-        { "what": "A good day's haul", "value": "over 100 gallons, two or three trips" },
-        { "what": "Arrests 1921 to 1931", "value": "13, unsourced" }
+        {
+          "what": "Cars in a convoy",
+          "value": "up to 10"
+        },
+        {
+          "what": "A good day's haul",
+          "value": "over 100 gallons, two or three trips"
+        },
+        {
+          "what": "Arrests 1921 to 1931",
+          "value": "13, unsourced"
+        }
       ],
       "use": "",
       "leads": [
@@ -130,19 +291,50 @@
       ],
       "verify": [
         "Most claims are unsourced: the arrest count, the gallon totals, and the engine swap. The article says Cadillac V8s went into Model As. Treat as lore until a primary source backs it."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the web page",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "004",
       "kind": "article",
-      "title": "Women Bootleggers During Prohibition: There Were Many",
-      "outlet": "Alcohol Problems and Solutions",
+      "title": "Women Bootleggers and Women Prohibition Agents",
+      "outlet": "Alcohol Problems and Solutions, David J. Hanson",
       "source_date": "",
       "period": "1920 to 1933",
       "counties": [],
-      "people": ["Willie Carter Sharpe", "Maggie Bailey", "Georgia Hopley", "Daisy Simpson"],
-      "themes": ["women", "law", "money"],
+      "people": [
+        "Willie Carter Sharpe",
+        "Maggie Bailey",
+        "Georgia Hopley",
+        "Daisy Simpson"
+      ],
+      "themes": [
+        "women",
+        "law",
+        "money"
+      ],
       "url": "https://www.alcoholproblemsandsolutions.org/women-bootleggers-during-prohibition-there-were-many/",
+      "cite": {
+        "author": "Hanson, David J.",
+        "title": "Women Bootleggers and Women Prohibition Agents",
+        "container": "Alcohol Problems and Solutions",
+        "place": "",
+        "publisher": "",
+        "date": "2016-02-21",
+        "pages": "",
+        "database": "",
+        "url": "https://www.alcoholproblemsandsolutions.org/women-bootleggers-during-prohibition-there-were-many/",
+        "accessed": "2026-10-28",
+        "type": "web",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-24",
       "trust": "secondary",
@@ -154,10 +346,22 @@
         "The Prohibition Bureau hired about a dozen women agents in 1922. One San Francisco agent worked in disguise, and judges criticized her for entrapment."
       ],
       "numbers": [
-        { "what": "Pint price, one seller", "value": "50 cents" },
-        { "what": "Gallon price, one seller", "value": "$2" },
-        { "what": "Women agents hired by the Bureau, 1922", "value": "about 12" },
-        { "what": "Sharpe's total here", "value": "over 220,000 gallons, 1926 to 1931" }
+        {
+          "what": "Pint price, one seller",
+          "value": "50 cents"
+        },
+        {
+          "what": "Gallon price, one seller",
+          "value": "$2"
+        },
+        {
+          "what": "Women agents hired by the Bureau, 1922",
+          "value": "about 12"
+        },
+        {
+          "what": "Sharpe's total here",
+          "value": "over 220,000 gallons, 1926 to 1931"
+        }
       ],
       "use": "",
       "leads": [
@@ -165,7 +369,15 @@
       ],
       "verify": [
         "The $2 a gallon matches the NPS Cupp Cabin figure already in use. Find a Virginia source to confirm."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the web page",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "005",
@@ -174,10 +386,34 @@
       "outlet": "Email from Cheryl Lindsey, with a pasted AI search summary",
       "source_date": "2026-10-27",
       "period": "1920s",
-      "counties": ["Wythe", "Carroll"],
-      "people": ["Effie Margaret Stoots McGee"],
-      "themes": ["family", "hauling", "place"],
+      "counties": [
+        "Wythe",
+        "Carroll"
+      ],
+      "people": [
+        "Effie Margaret Stoots McGee"
+      ],
+      "themes": [
+        "family",
+        "hauling",
+        "place"
+      ],
       "url": "",
+      "cite": {
+        "type": "email",
+        "author": "Lindsey, Cheryl",
+        "title": "Stoots Mountain Moonshine A Vaughan Family Connection",
+        "container": "",
+        "place": "",
+        "publisher": "",
+        "date": "2026-10-27",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "recipient": "Tim Lindsey",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-27",
       "trust": "family",
@@ -197,7 +433,15 @@
       "verify": [
         "The AI summary puts Austinville in Carroll County. Austinville and Lead Mines Road are in Wythe County. Check which county the mountain sits in.",
         "Confirm the generation count, great-great-grandmother of Tim's father, against a tree."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "Cheryl's email",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "006",
@@ -206,10 +450,35 @@
       "outlet": "Email from Cheryl Lindsey, linking a 2017 hiking blog",
       "source_date": "2026-10-25",
       "period": "1900 to 1950",
-      "counties": ["Floyd"],
-      "people": ["Dr. Amos D. Wood", "Dr. Burnette", "Bob Childress"],
-      "themes": ["place", "church", "law"],
+      "counties": [
+        "Floyd"
+      ],
+      "people": [
+        "Dr. Amos D. Wood",
+        "Dr. Burnette",
+        "Bob Childress"
+      ],
+      "themes": [
+        "place",
+        "church",
+        "law"
+      ],
       "url": "http://fbwg-hiking.blogspot.com/2017/04/buffalo-mountain-virginia.html",
+      "cite": {
+        "type": "email",
+        "author": "Lindsey, Cheryl",
+        "title": "Hiking with a Fat Bald White Guy: BUFFALO MOUNTAIN VIRGINIA",
+        "container": "",
+        "place": "",
+        "publisher": "",
+        "date": "2026-10-25",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "recipient": "Tim Lindsey",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-25",
       "trust": "family",
@@ -220,10 +489,14 @@
         "The linked blog is a modern hike report. It gives the terrain (3,900 ft, Floyd County's high point, rocky dome summit) and says nothing about moonshine."
       ],
       "numbers": [
-        { "what": "Summit elevation", "value": "about 3,900 ft" }
+        {
+          "what": "Summit elevation",
+          "value": "about 3,900 ft"
+        }
       ],
       "use": "",
       "leads": [
+        "The linked hike report: Tommy Cook, \"Buffalo Mountain Virginia,\" Hiking with a Fat Bald White Guy, April 2017. http://fbwg-hiking.blogspot.com/2017/04/buffalo-mountain-virginia.html",
         "Book: Floyd County: A History of Its People and Places, Dr. Amos D. Wood. Compiled in the 1920s, published 1983 by the Floyd County Historical Society.",
         "Book: The Man Who Moved a Mountain, Richard C. Davids (1970). About Rev. Bob Childress, who built the rock churches around Buffalo Mountain.",
         "Childress is said to have witnessed a courthouse massacre as a young man and quit drinking after. If that is Hillsville 1912, it crosses the family's courthouse thread."
@@ -231,7 +504,15 @@
       "verify": [
         "Whether Wood's book covers moonshining. Its publisher's notice doesn't say.",
         "Which courthouse Childress saw."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "Cheryl's email and the linked blog post",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "007",
@@ -242,8 +523,26 @@
       "period": "",
       "counties": [],
       "people": [],
-      "themes": ["church", "family"],
+      "themes": [
+        "church",
+        "family"
+      ],
       "url": "",
+      "cite": {
+        "type": "email",
+        "author": "Lindsey, Cheryl",
+        "title": "The Primitive Baptists and Their Moonshine Members",
+        "container": "",
+        "place": "",
+        "publisher": "",
+        "date": "2026-10-27",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "recipient": "Tim Lindsey",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-27",
       "trust": "family",
@@ -258,19 +557,55 @@
       ],
       "verify": [
         "The link is a search page, not a source. Nothing here is checked yet."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "Cheryl's email",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "008",
       "kind": "article",
       "title": "Local History: Franklin County, the Moonshine Capital of the World",
-      "outlet": "Visit Roanoke",
-      "source_date": "",
+      "outlet": "Visit Virginia's Blue Ridge, Casey L. Higgins",
+      "source_date": "2019-01-08",
       "period": "1791 to 2017",
-      "counties": ["Franklin", "Floyd"],
-      "people": ["Charles Carter Lee", "Walter \"Peg\" Hatcher", "Forrest Bondurant", "Howard Bondurant", "Jack Bondurant"],
-      "themes": ["law", "money", "hauling", "place"],
+      "counties": [
+        "Franklin",
+        "Floyd"
+      ],
+      "people": [
+        "Charles Carter Lee",
+        "Walter \"Peg\" Hatcher",
+        "Forrest Bondurant",
+        "Howard Bondurant",
+        "Jack Bondurant"
+      ],
+      "themes": [
+        "law",
+        "money",
+        "hauling",
+        "place"
+      ],
       "url": "https://www.visitroanokeva.com/blog/post/local-history-franklin-county-virginia-moonshine-capital-of-the-world/",
+      "cite": {
+        "author": "Higgins, Casey L.",
+        "title": "Local History: Franklin County - The Moonshine Capital",
+        "container": "Visit Virginia's Blue Ridge",
+        "place": "",
+        "publisher": "Roanoke Valley Convention and Visitors Bureau",
+        "date": "2019-01-08",
+        "pages": "",
+        "database": "",
+        "url": "https://www.visitroanokeva.com/blog/post/local-history-franklin-county-virginia-moonshine-capital-of-the-world/",
+        "accessed": "2026-10-28",
+        "type": "web",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-24",
       "trust": "secondary",
@@ -283,13 +618,34 @@
         "1930: the Bondurant brothers' shootout with police at the Maggodee Creek bridge."
       ],
       "numbers": [
-        { "what": "Virginia dry", "value": "November 1, 1916" },
-        { "what": "Legal distilleries in Franklin, 1893 to 1894", "value": "77" },
-        { "what": "Excise taxes the government said were dodged", "value": "$5.5 million" },
-        { "what": "Floyd County stills destroyed, Prohibition era", "value": "3,909" },
-        { "what": "Floyd County arrests", "value": "1,669" },
-        { "what": "Floyd County vehicles seized", "value": "over 716" },
-        { "what": "Floyd County gallons seized", "value": "130,717" }
+        {
+          "what": "Virginia dry",
+          "value": "November 1, 1916"
+        },
+        {
+          "what": "Legal distilleries in Franklin, 1893 to 1894",
+          "value": "77"
+        },
+        {
+          "what": "Excise taxes the government said were dodged",
+          "value": "$5.5 million"
+        },
+        {
+          "what": "Floyd County stills destroyed, Prohibition era",
+          "value": "3,909"
+        },
+        {
+          "what": "Floyd County arrests",
+          "value": "1,669"
+        },
+        {
+          "what": "Floyd County vehicles seized",
+          "value": "over 716"
+        },
+        {
+          "what": "Floyd County gallons seized",
+          "value": "130,717"
+        }
       ],
       "use": "",
       "leads": [
@@ -298,19 +654,47 @@
       ],
       "verify": [
         "The Boones Mill sugar claim is a repeated legend. Check against Thompson."
-      ]
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the web page",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "009",
       "kind": "place",
       "title": "Mountain Spirit: Virginia's Moonshine Heritage Trail",
-      "outlet": "Life in SOVA",
+      "outlet": "Life in SOVA, West Piedmont Planning District Commission",
       "source_date": "",
       "period": "",
-      "counties": ["Franklin", "Floyd", "Patrick"],
+      "counties": [
+        "Franklin",
+        "Floyd",
+        "Patrick"
+      ],
       "people": [],
-      "themes": ["place"],
+      "themes": [
+        "place"
+      ],
       "url": "https://www.lifeinsova.com/mountainspirittrail/",
+      "cite": {
+        "author": "",
+        "title": "Mountain Spirit Trail",
+        "container": "Life in SOVA",
+        "place": "",
+        "publisher": "West Piedmont Planning District Commission",
+        "date": "",
+        "pages": "",
+        "database": "",
+        "url": "https://www.lifeinsova.com/mountainspirittrail/",
+        "accessed": "2026-10-28",
+        "type": "web",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-27",
       "trust": "secondary",
@@ -323,7 +707,15 @@
       "leads": [
         "The Old Church Gallery runs the Floyd Story Center, source of the Floyd Times column (011)."
       ],
-      "verify": []
+      "verify": [],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the web page",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "010",
@@ -336,6 +728,20 @@
       "people": [],
       "themes": [],
       "url": "https://www.newspapers.com/image/760670515/",
+      "cite": {
+        "author": "",
+        "title": "",
+        "container": "The Richmond News Leader",
+        "place": "",
+        "publisher": "",
+        "date": "1952-09-12",
+        "pages": "25",
+        "database": "Newspapers.com",
+        "url": "https://www.newspapers.com/image/760670515/",
+        "accessed": "",
+        "type": "newspaper",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-24",
       "trust": "unread",
@@ -347,7 +753,15 @@
       "leads": [
         "Cheryl thinks Roanoke papers are the better source for this research."
       ],
-      "verify": []
+      "verify": [],
+      "ai": {
+        "summarized_by": "",
+        "summarized_on": "",
+        "from": "nothing yet, not read",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     },
     {
       "id": "011",
@@ -356,10 +770,31 @@
       "outlet": "Floyd Times, Kathleen Ingoldsby",
       "source_date": "2026-10-22",
       "period": "1900s to 1930s",
-      "counties": ["Floyd"],
+      "counties": [
+        "Floyd"
+      ],
       "people": [],
-      "themes": ["craft", "hauling", "law", "place"],
+      "themes": [
+        "craft",
+        "hauling",
+        "law",
+        "place"
+      ],
       "url": "https://www.floydtimes.com/backstories-and-backyards-distilling/",
+      "cite": {
+        "author": "Ingoldsby, Kathleen",
+        "title": "Backstories and Backyards: Distilling",
+        "container": "Floyd Times",
+        "place": "",
+        "publisher": "",
+        "date": "2026-10-22",
+        "pages": "",
+        "database": "",
+        "url": "https://www.floydtimes.com/backstories-and-backyards-distilling/",
+        "accessed": "2026-10-28",
+        "type": "web",
+        "archive": ""
+      },
       "sent_by": "Cheryl Lindsey",
       "sent_date": "2026-10-24",
       "trust": "secondary",
@@ -372,11 +807,22 @@
         "Whiskey-soaked rock candy was a family cough remedy."
       ],
       "numbers": [
-        { "what": "Short-fill on a half-gallon jar", "value": "about 1.5 cups" }
+        {
+          "what": "Short-fill on a half-gallon jar",
+          "value": "about 1.5 cups"
+        }
       ],
       "use": "",
       "leads": [],
-      "verify": []
+      "verify": [],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-28",
+        "from": "the web page",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": []
     }
   ]
 }
