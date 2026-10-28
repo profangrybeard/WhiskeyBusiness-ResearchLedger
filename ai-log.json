@@ -21,7 +21,7 @@
       "outcome": "changed",
       "why": "",
       "commits": [
-        "95970d1"
+        "e880bf5"
       ]
     },
     {
@@ -33,9 +33,7 @@
       "outcome": "rejected",
       "instead": "One public ledger. Ancestors and public-source names allowed, living relatives left out, binder notes kept in the private Project. Logged in DECISIONS.md.",
       "why": "\"i think i was in IP mode and not research mode - this is research\"",
-      "commits": [
-        "005621c"
-      ]
+      "commits": []
     },
     {
       "id": "L003",
@@ -46,7 +44,7 @@
       "outcome": "kept",
       "why": "",
       "commits": [
-        "26afe22"
+        "448e637"
       ]
     },
     {
@@ -59,7 +57,7 @@
       "instead": "A redesign built around scanning: filter rail with counts, numbered expandable rows, graded trust tags, the docket as a table.",
       "why": "\"it looks like something i designed in 2003 as an announcement for my sons birth.\" \"make this look like it is designed with intention and serves it's mechanical purpose first and style supports that.\"",
       "commits": [
-        "5ce97c3"
+        "1ae7ac7"
       ]
     },
     {
