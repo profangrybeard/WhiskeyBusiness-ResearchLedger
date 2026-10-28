@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "title": "Research Ledger",
+    "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are paraphrased notes, not copies. The use field is Tim's alone.",
+    "updated": "2026-10-28",
+    "trust": {
+      "primary": "Written at the time. Newspapers, court records, census.",
+      "secondary": "A later history, article or museum page. Check its sources.",
+      "family": "Family memory or family research. Real, but unchecked.",
+      "ai": "A pasted AI summary. Verify every line before it counts.",
+      "unread": "Logged, not read yet."
+    },
+    "themes": ["hauling", "law", "protection", "money", "women", "church", "craft", "place", "family"]
+  },
+  "entries": [
+    {
+      "id": "001",
+      "kind": "clipping",
+      "title": "Franklin's 'Outlaw' Heroine Is Caught in Liquor Ring Net",
+      "outlet": "Richmond Times-Dispatch, page 11",
+      "source_date": "1935-02-08",
+      "period": "1928 to 1934",
+      "counties": ["Franklin"],
+      "people": ["Willie Carter Sharpe", "J. P. Hodges", "George S. Hodges", "Walter \"Peg\" Hatcher", "Charles C. Greer", "Charles Carter Lee", "T. Roosevelt Smith", "Leo C. Mays", "Leonard L. Fralin"],
+      "themes": ["law", "protection", "hauling", "money", "women"],
+      "url": "https://www.newspapers.com/image/827941122/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-26",
+      "trust": "primary",
+      "summary": [
+        "Reports the federal grand jury indictment in the Franklin County conspiracy, returned at Harrisonburg the day before. The indictment charges 68 overt acts.",
+        "Sharpe is described as a legend among hill people, with diamond insets in her teeth, races down the main streets of Roanoke and Rocky Mount, and a prior term at the federal women's prison at Alderson, WV.",
+        "The grand jury found she drove the block car on dozens of hauls. Her job was to stall pursuing officers, or lead them off on side roads, while the main caravan got through.",
+        "Cites the Wickersham Commission calling Franklin the wettest spot in the nation.",
+        "Fall 1928: the sheriff and a relative are charged with taking 150 gallons of seized liquor out of county storage and selling it, delivered at a farm, to a buyer from Lynchburg driving a Buick.",
+        "A sheriff is charged with telling a deputy to sit on an arrest warrant until the suspect had been warned to clear the liquor off his place.",
+        "Protection money is paid through the sheriff's wife. One payment of $50 is named. A deputy is charged with pulling a roadblock off the Rocky Mount to Ferrum road so two loads could pass.",
+        "From the start of the conspiracy to May 11, 1931, one supplier delivered about 65,000 gallons of untaxed liquor to Sharpe. Two others delivered 10,000 and 4,000.",
+        "November 17, 1932: the Commonwealth's Attorney is charged with taking $50 from a defendant."
+      ],
+      "numbers": [
+        { "what": "Overt acts in the indictment", "value": "68" },
+        { "what": "Seized liquor resold by the sheriff, fall 1928", "value": "150 gallons" },
+        { "what": "Seized liquor taken from Rocky Mount storage and sold", "value": "25 gallons" },
+        { "what": "Single protection payment", "value": "$50" },
+        { "what": "Delivered to Sharpe by one supplier, through May 11, 1931", "value": "about 65,000 gallons" },
+        { "what": "One receiver's intake from six suppliers", "value": "4,000 to 15,000 gallons each, 36,800 total" }
+      ],
+      "use": "",
+      "leads": [
+        "The right-hand column runs off the page edge. Find page 12 or the continuation for the rest of the overt acts.",
+        "Thompson's Spirits of Just Men covers this same indictment in depth."
+      ],
+      "verify": [
+        "The cut-off column mentions a T. J. Richards who was shot. Confirm who and when."
+      ]
+    },
+    {
+      "id": "002",
+      "kind": "clipping",
+      "title": "Met Success in Her Work: Woman Rum Runner Is Witness at Trial in Roanoke",
+      "outlet": "The Daily Review (Clifton Forge, VA), page 1",
+      "source_date": "1935-05-24",
+      "period": "1925 to 1932",
+      "counties": ["Franklin", "Floyd"],
+      "people": ["Willie Carter Sharpe", "Floyd Carter", "John Carter", "Charles Sharpe", "Jack Bess", "J. C. Edwards", "P. A. Murphy", "Charles Carter Lee", "Leonard L. Fralin"],
+      "themes": ["hauling", "law", "protection", "women"],
+      "url": "https://www.newspapers.com/image/796379159/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-28",
+      "trust": "primary",
+      "summary": [
+        "Sharpe testifies for the government at the conspiracy trial in Roanoke. The paper calls her the best-known pilot in Virginia bootlegging, credited with nearly 200,000 gallons out of the Franklin hills.",
+        "Pilot is the period word. She drove ahead of or behind the liquor caravans on the road from Franklin County to Roanoke.",
+        "She named twenty rum-runners she piloted for, who they worked for, and where the whiskey came from.",
+        "Her path, in her telling: selling drinks with the Carters, then hauling, then piloting. She married Floyd Carter, son of John Carter, and divorced him in 1925, by which point she was already hauling out of Floyd County.",
+        "She piloted from Franklin County from 1926 to July 1931, working regularly with Charles Sharpe of Roanoke.",
+        "She sometimes met caravans at the Blackwater filling station. Officers raided it in 1932 and found only some pure grain alcohol.",
+        "Two former state prohibition inspectors testified that after a fruitless raid on a defendant's filling station, someone said the raided party knew they were coming.",
+        "The inspectors caught a hauler on a back road with twenty gallons. He paid a fine, was turned loose without bond, and drove his car home the same day.",
+        "One inspector said he cut twelve stills on a single raid in the mountains. His summary of the job: \"you could catch the stills, but you couldn't catch the men.\""
+      ],
+      "numbers": [
+        { "what": "Gallons Sharpe is credited with piloting", "value": "nearly 200,000" },
+        { "what": "Rum-runners she named on the stand", "value": "20" },
+        { "what": "Her piloting years out of Franklin", "value": "1926 to July 1931" },
+        { "what": "Load found on a caught hauler", "value": "20 gallons" },
+        { "what": "Stills cut on one raid", "value": "12" }
+      ],
+      "use": "",
+      "leads": [
+        "The Blackwater filling station as a meeting point for caravans.",
+        "The story continues past the page. Find the jump for the rest of her testimony."
+      ],
+      "verify": [
+        "Her gallon total runs 65,000 (one supplier, 001), nearly 200,000 (here), 145,000 to 250,000 (003), and 220,000 (004). Pick a sourced number before using one.",
+        "She says she piloted until July 1931. Other accounts put her arrest in May 1931."
+      ]
+    },
+    {
+      "id": "003",
+      "kind": "article",
+      "title": "Willie Carter Sharpe: The Rum-Running Queen of Virginia",
+      "outlet": "Blue Ridge Tales",
+      "source_date": "",
+      "period": "1921 to 1935",
+      "counties": ["Floyd", "Franklin"],
+      "people": ["Willie Carter Sharpe", "Floyd Carter", "John Carter", "Thomas Bailey", "Sherwood Anderson"],
+      "themes": ["hauling", "women", "law", "craft"],
+      "url": "https://blueridgetales.com/willie-carter-sharpe-the-rum-running-queen-of-virginia/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-24",
+      "trust": "secondary",
+      "summary": [
+        "A popular retelling of Sharpe's life. Born in Floyd County, left for Roanoke at 17, worked a cotton mill, an overall factory and a five-and-dime.",
+        "Says she led convoys of up to ten cars, loading at the Blackwater filling station and running north to Roanoke, with other drivers carrying on to Lynchburg, Covington, Washington and Baltimore.",
+        "Describes Model A Fords rebuilt for hauling: heavier shocks, cooling, gearing and brakes, hidden compartments, a kill switch for the brake lights.",
+        "Says she was arrested in May 1931 and served three years at Alderson.",
+        "Ties her to the 1935 trial and to Sherwood Anderson's novel Kit Brandon."
+      ],
+      "numbers": [
+        { "what": "Cars in a convoy", "value": "up to 10" },
+        { "what": "A good day's haul", "value": "over 100 gallons, two or three trips" },
+        { "what": "Arrests 1921 to 1931", "value": "13, unsourced" }
+      ],
+      "use": "",
+      "leads": [
+        "Sherwood Anderson covered the trial for Liberty magazine and wrote Kit Brandon (1936). A period novel built on her.",
+        "Cheryl's note: Fords were cheap because Ford wanted every man to own one, and Sharpe ran a convoy of them."
+      ],
+      "verify": [
+        "Most claims are unsourced: the arrest count, the gallon totals, and the engine swap. The article says Cadillac V8s went into Model As. Treat as lore until a primary source backs it."
+      ]
+    },
+    {
+      "id": "004",
+      "kind": "article",
+      "title": "Women Bootleggers During Prohibition: There Were Many",
+      "outlet": "Alcohol Problems and Solutions",
+      "source_date": "",
+      "period": "1920 to 1933",
+      "counties": [],
+      "people": ["Willie Carter Sharpe", "Maggie Bailey", "Georgia Hopley", "Daisy Simpson"],
+      "themes": ["women", "law", "money"],
+      "url": "https://www.alcoholproblemsandsolutions.org/women-bootleggers-during-prohibition-there-were-many/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-24",
+      "trust": "secondary",
+      "summary": [
+        "A roundup of women bootleggers across the country, and of women Prohibition agents.",
+        "Women's methods: carrying liquor on their bodies, daring officers to search them, threatening to sue, riding along as passengers so cars weren't stopped. Juries were slow to convict mothers and grandmothers.",
+        "Maggie Bailey of Clovertown, KY, was called the queen of the mountain bootleggers and helped needy families.",
+        "One seller hid liquor in boardinghouse laundry and sold it at 50 cents a pint, $2 a gallon.",
+        "The Prohibition Bureau hired about a dozen women agents in 1922. One San Francisco agent worked in disguise, and judges criticized her for entrapment."
+      ],
+      "numbers": [
+        { "what": "Pint price, one seller", "value": "50 cents" },
+        { "what": "Gallon price, one seller", "value": "$2" },
+        { "what": "Women agents hired by the Bureau, 1922", "value": "about 12" },
+        { "what": "Sharpe's total here", "value": "over 220,000 gallons, 1926 to 1931" }
+      ],
+      "use": "",
+      "leads": [
+        "Cheryl's note: she hadn't thought about women as Prohibition agents."
+      ],
+      "verify": [
+        "The $2 a gallon matches the NPS Cupp Cabin figure already in use. Find a Virginia source to confirm."
+      ]
+    },
+    {
+      "id": "005",
+      "kind": "family",
+      "title": "Stoots Mountain and the Stoots family",
+      "outlet": "Email from Cheryl Lindsey, with a pasted AI search summary",
+      "source_date": "2026-10-27",
+      "period": "1920s",
+      "counties": ["Wythe", "Carroll"],
+      "people": ["Effie Margaret Stoots McGee"],
+      "themes": ["family", "hauling", "place"],
+      "url": "",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-27",
+      "trust": "family",
+      "summary": [
+        "Cheryl knows of no Lindsey connection to moonshine. The Stoots line is the family link.",
+        "Effie Margaret Stoots McGee, on Tim's father's side through his mother's maternal line, came from the Stoots Mountain area. Per Cheryl, the Stoots were in the refreshment business.",
+        "The route, as Cheryl describes it: down the mountain by horse and wagon, across the New River by small ferry or bridge, onto Model Ts, then on to Roanoke.",
+        "Stoots Mountain is the range on the right just after crossing the New River southbound on I-77. Family nearby offered to drive her up, but warned the road is narrow and dangerous.",
+        "The rest of the email is a pasted AI summary. It places Stoots Mountain Road off Lead Mines Road and Loafers Rest, Austinville."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Census and death records for Effie Margaret Stoots McGee.",
+        "Any Stoots names in Wythe or Carroll court records, 1916 to 1933."
+      ],
+      "verify": [
+        "The AI summary puts Austinville in Carroll County. Austinville and Lead Mines Road are in Wythe County. Check which county the mountain sits in.",
+        "Confirm the generation count, great-great-grandmother of Tim's father, against a tree."
+      ]
+    },
+    {
+      "id": "006",
+      "kind": "family",
+      "title": "Buffalo Mountain, Floyd County",
+      "outlet": "Email from Cheryl Lindsey, linking a 2017 hiking blog",
+      "source_date": "2026-10-25",
+      "period": "1900 to 1950",
+      "counties": ["Floyd"],
+      "people": ["Dr. Amos D. Wood", "Dr. Burnette", "Bob Childress"],
+      "themes": ["place", "church", "law"],
+      "url": "http://fbwg-hiking.blogspot.com/2017/04/buffalo-mountain-virginia.html",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-25",
+      "trust": "family",
+      "summary": [
+        "Cheryl's own notes. The mountain could only be reached on horseback, and the rough ground protected the stills.",
+        "Few outsiders were let in. Doctors and midwives were the exception.",
+        "Two doctors treated the sick and the shot: Dr. Amos Wood of Floyd, and Dr. Burnette, who appears in The Man Who Moved a Mountain.",
+        "The linked blog is a modern hike report. It gives the terrain (3,900 ft, Floyd County's high point, rocky dome summit) and says nothing about moonshine."
+      ],
+      "numbers": [
+        { "what": "Summit elevation", "value": "about 3,900 ft" }
+      ],
+      "use": "",
+      "leads": [
+        "Book: Floyd County: A History of Its People and Places, Dr. Amos D. Wood. Compiled in the 1920s, published 1983 by the Floyd County Historical Society.",
+        "Book: The Man Who Moved a Mountain, Richard C. Davids (1970). About Rev. Bob Childress, who built the rock churches around Buffalo Mountain.",
+        "Childress is said to have witnessed a courthouse massacre as a young man and quit drinking after. If that is Hillsville 1912, it crosses the family's courthouse thread."
+      ],
+      "verify": [
+        "Whether Wood's book covers moonshining. Its publisher's notice doesn't say.",
+        "Which courthouse Childress saw."
+      ]
+    },
+    {
+      "id": "007",
+      "kind": "family",
+      "title": "Primitive Baptists and their moonshine members",
+      "outlet": "Email from Cheryl Lindsey, linking a Google search",
+      "source_date": "2026-10-27",
+      "period": "",
+      "counties": [],
+      "people": [],
+      "themes": ["church", "family"],
+      "url": "",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-27",
+      "trust": "family",
+      "summary": [
+        "Cheryl's picture: a hearse and caskets packed with refreshments at a Primitive Baptist funeral.",
+        "Her line on the church: members could drink it, they just couldn't sell it."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Find a real source on Primitive Baptist rules about making, selling and drinking liquor."
+      ],
+      "verify": [
+        "The link is a search page, not a source. Nothing here is checked yet."
+      ]
+    },
+    {
+      "id": "008",
+      "kind": "article",
+      "title": "Local History: Franklin County, the Moonshine Capital of the World",
+      "outlet": "Visit Roanoke",
+      "source_date": "",
+      "period": "1791 to 2017",
+      "counties": ["Franklin", "Floyd"],
+      "people": ["Charles Carter Lee", "Walter \"Peg\" Hatcher", "Forrest Bondurant", "Howard Bondurant", "Jack Bondurant"],
+      "themes": ["law", "money", "hauling", "place"],
+      "url": "https://www.visitroanokeva.com/blog/post/local-history-franklin-county-virginia-moonshine-capital-of-the-world/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-24",
+      "trust": "secondary",
+      "summary": [
+        "Virginia went dry on November 1, 1916, three years before national Prohibition. Virginia's ABC came in March 1934.",
+        "Franklin County had 77 legal distilleries in 1893 to 1894.",
+        "Sugar was bought through legitimate fronts like bakeries. The page repeats the claim that Boones Mill took in more sugar than New York City.",
+        "The 1935 trial ran ten weeks with 176 witnesses. Of 23 defendants, 20 were convicted. The Commonwealth's Attorney was acquitted.",
+        "Floyd County agents over Prohibition destroyed 3,909 stills, made 1,669 arrests, and seized over 716 vehicles and 130,717 gallons.",
+        "1930: the Bondurant brothers' shootout with police at the Maggodee Creek bridge."
+      ],
+      "numbers": [
+        { "what": "Virginia dry", "value": "November 1, 1916" },
+        { "what": "Legal distilleries in Franklin, 1893 to 1894", "value": "77" },
+        { "what": "Excise taxes the government said were dodged", "value": "$5.5 million" },
+        { "what": "Floyd County stills destroyed, Prohibition era", "value": "3,909" },
+        { "what": "Floyd County arrests", "value": "1,669" },
+        { "what": "Floyd County vehicles seized", "value": "over 716" },
+        { "what": "Floyd County gallons seized", "value": "130,717" }
+      ],
+      "use": "",
+      "leads": [
+        "The Floyd County enforcement totals. Find their original source.",
+        "One of the trial's convicted haulers has a grandson running a legal Rocky Mount distillery today."
+      ],
+      "verify": [
+        "The Boones Mill sugar claim is a repeated legend. Check against Thompson."
+      ]
+    },
+    {
+      "id": "009",
+      "kind": "place",
+      "title": "Mountain Spirit: Virginia's Moonshine Heritage Trail",
+      "outlet": "Life in SOVA",
+      "source_date": "",
+      "period": "",
+      "counties": ["Franklin", "Floyd", "Patrick"],
+      "people": [],
+      "themes": ["place"],
+      "url": "https://www.lifeinsova.com/mountainspirittrail/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-27",
+      "trust": "secondary",
+      "summary": [
+        "A tourism trail of 28 stops across Franklin, Floyd and Patrick counties: distilleries, museums, mills, historical societies.",
+        "Research stops on it: the Blue Ridge Institute and Museum in Ferrum, the Franklin County and Floyd County historical societies, the Old Church Gallery in Floyd, and Mabry Mill."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "The Old Church Gallery runs the Floyd Story Center, source of the Floyd Times column (011)."
+      ],
+      "verify": []
+    },
+    {
+      "id": "010",
+      "kind": "clipping",
+      "title": "Virginia moonshiners",
+      "outlet": "The Richmond News Leader, page 25",
+      "source_date": "1952-09-12",
+      "period": "",
+      "counties": [],
+      "people": [],
+      "themes": [],
+      "url": "https://www.newspapers.com/image/760670515/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-24",
+      "trust": "unread",
+      "summary": [
+        "Not read yet. The link needs a Newspapers.com login."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Cheryl thinks Roanoke papers are the better source for this research."
+      ],
+      "verify": []
+    },
+    {
+      "id": "011",
+      "kind": "article",
+      "title": "Backstories and Backyards: Distilling",
+      "outlet": "Floyd Times, Kathleen Ingoldsby",
+      "source_date": "2026-10-22",
+      "period": "1900s to 1930s",
+      "counties": ["Floyd"],
+      "people": [],
+      "themes": ["craft", "hauling", "law", "place"],
+      "url": "https://www.floydtimes.com/backstories-and-backyards-distilling/",
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-24",
+      "trust": "secondary",
+      "summary": [
+        "Built on Floyd Story Center interviews.",
+        "Jars made for the trade held about a cup and a half short of a true half gallon. A truck of them was seized in Richmond.",
+        "A Model T hauling five-gallon tins sometimes backed up steep hills, because fuel couldn't reach the carburetor nose up.",
+        "One man was caught on his first run. His copper still was kept on the courthouse lawn because it was so well made.",
+        "Submarine stills of boards and sheet metal were common by the 1920s. Mash was corn with sugar, or Karo syrup earlier.",
+        "Whiskey-soaked rock candy was a family cough remedy."
+      ],
+      "numbers": [
+        { "what": "Short-fill on a half-gallon jar", "value": "about 1.5 cups" }
+      ],
+      "use": "",
+      "leads": [],
+      "verify": []
+    }
+  ]
+}
