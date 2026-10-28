@@ -71,4 +71,4 @@ Saving new Wayback snapshots is blocked from these sessions. Archive fields stay
 
 ## After filing
 
-Set `meta.updated` in the catalogue to today, commit as `research: filed N from Cheryl` (and `M questions` when there are any), and push to `main`.
+Set `meta.updated` in the catalogue to today, bump the last number of the version line in README.md and set its date to today, commit as `research: filed N from Cheryl` (and `M questions` when there are any), and push to `main`.

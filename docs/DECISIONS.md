@@ -27,3 +27,6 @@ Tim: "thesis is county - i'll grow it if this game reaches it's 13 year arc." St
 
 **2026-10-28. Book quotes live in a private Reading Notes page. Page numbers and Tim's notes go public in the ledger.**
 Tim chose the private capture page over a Google Doc or quoting straight into the public ledger. Keeps the standing rule that book text stays out of the repo.
+
+**2026-10-28. The README carries a version number and date.**
+Tim: "so we can track how currrent my updates are." Every push bumps the last number and the date. Tim changes the higher numbers.

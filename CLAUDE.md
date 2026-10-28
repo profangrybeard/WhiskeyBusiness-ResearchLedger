@@ -27,6 +27,10 @@ The ledger is public on GitHub Pages and is thesis material. Every rule here is 
 - `docs/FILING.md`: how material gets filed.
 - `docs/DECISIONS.md`: research decisions, append only.
 
+## Versioning
+
+Every push bumps the last number of the version line in README.md by one and sets its date to the day of the push, without asking. 0.1.1, then 0.1.2, and so on. Tim changes the higher numbers. The nightly filing run bumps it too when it pushes.
+
 ## Writing rules
 
 Never use em-dashes. Plain and conversational. Short paragraphs. Be specific. No hedging. Do not write in Tim's first-person voice.
