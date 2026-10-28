@@ -122,6 +122,16 @@
       "outcome": "kept",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L010",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Review Tim's revised primary question, which added a line between fame and infamy in the county.",
+      "produced": "Three notes: a grammar fix (the player treads the line, not the feelings), that \"in the county\" narrows the question below the 13-year arc, and that one line assumes fame and infamy trade off, which Sharpe's history contradicts.",
+      "outcome": "kept",
+      "why": "\"thesis is county - i'll grow it if this game reaches it's 13 year arc\" and \"yes i need the two axis\"",
+      "commits": []
     }
   ]
 }
