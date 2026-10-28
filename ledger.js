@@ -10,17 +10,18 @@ const KIND = { clipping: 'Clipping', article: 'Article', scholarship: 'Scholarsh
 const TRUST = { primary: 'Primary', secondary: 'Secondary', family: 'Family', ai: 'AI summary', unread: 'Unread' };
 const USE = { blank: 'Not written', written: 'Written' };
 const CHECKED = { unchecked: 'Not checked', checked: 'Checked by Tim' };
+const FEELING = { scoundrel: 'Scoundrel', pride: 'Pride in the product', none: 'Neither yet' };
 const SORTS = {
   filed: { name: 'Number', key: (e) => e.id },
   source: { name: 'Source date', key: (e) => e.source_date || '9999' },
   period: { name: 'Period covered', key: (e) => (e.period.match(/\d{4}/) || ['9999'])[0] },
   trust: { name: 'Trust', key: (e) => String(Object.keys(TRUST).indexOf(e.trust)) },
 };
-const GROUPS = ['kind', 'trust', 'checked', 'theme', 'county', 'use'];
+const GROUPS = ['feeling', 'kind', 'trust', 'checked', 'theme', 'county', 'use'];
 const VIEWS = ['sources', 'docket', 'bibliography', 'questions', 'ailog'];
 const REPO = 'https://github.com/profangrybeard/WhiskeyBusiness-MashEdition/commit/';
 
-const state = { q: '', sort: 'filed', view: 'sources', open: new Set(), kind: new Set(), trust: new Set(), checked: new Set(), theme: new Set(), county: new Set(), use: new Set() };
+const state = { q: '', sort: 'filed', view: 'sources', open: new Set(), feeling: new Set(), kind: new Set(), trust: new Set(), checked: new Set(), theme: new Set(), county: new Set(), use: new Set() };
 let data, questions = [], ailog = [];
 
 // ---------- dates and citations ----------
@@ -94,6 +95,7 @@ async function copy(html, text, btn) {
 // ---------- filtering ----------
 
 const valuesOf = {
+  feeling: (e) => { const f = [...new Set((e.bears_on || []).map((b) => b.feeling))]; return f.length ? f : ['none']; },
   kind: (e) => [e.kind],
   trust: (e) => [e.trust],
   checked: (e) => [e.ai && e.ai.checked_on ? 'checked' : 'unchecked'],
@@ -108,7 +110,7 @@ function matches(e, skip) {
     if (!valuesOf[g](e).some((v) => state[g].has(v))) return false;
   }
   if (state.q) {
-    const hay = [e.title, e.outlet, ...e.people, ...e.counties, ...e.summary, ...e.leads, ...e.verify, e.use, mla(e).text, ...e.numbers.map((n) => n.what + ' ' + n.value)].join(' ').toLowerCase();
+    const hay = [e.title, e.outlet, ...e.people, ...e.counties, ...e.summary, ...e.leads, ...e.verify, e.use, mla(e).text, ...(e.bears_on || []).map((b) => b.feeling + ' ' + b.evidence), ...e.numbers.map((n) => n.what + ' ' + n.value)].join(' ').toLowerCase();
     if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
   }
   return true;
@@ -127,11 +129,12 @@ function options(group) {
   if (group === 'trust') return Object.entries(TRUST);
   if (group === 'use') return Object.entries(USE);
   if (group === 'checked') return Object.entries(CHECKED);
+  if (group === 'feeling') return Object.entries(FEELING);
   if (group === 'theme') return data.meta.themes.map((t) => [t, t[0].toUpperCase() + t.slice(1)]);
   return [...new Set(data.entries.flatMap((e) => e.counties))].sort().map((c) => [c, c]);
 }
 
-const LABEL = { kind: 'Kind', trust: 'Trust', checked: 'Summary', theme: 'Theme', county: 'County', use: 'Use line' };
+const LABEL = { feeling: 'Bears on', kind: 'Kind', trust: 'Trust', checked: 'Summary', theme: 'Theme', county: 'County', use: 'Use line' };
 
 function activeCount() {
   return GROUPS.reduce((a, g) => a + state[g].size, 0) + (state.q ? 1 : 0);
@@ -178,6 +181,12 @@ function provenance(e) {
   return `<p class="prov">Summary by ${esc(a.summarized_by)}, ${esc(fmtDate(a.summarized_on))}, from ${esc(a.from)}. ${checked}</p>`;
 }
 
+function bears(e) {
+  const b = e.bears_on || [];
+  if (!b.length) return '';
+  return `<div class="bears"><h4>Bears on</h4><ul>${b.map((x) => `<li><span class="feel" data-feel="${esc(x.feeling)}">${esc(x.feeling)}</span> ${esc(x.evidence)}</li>`).join('')}</ul><p class="tagnote">Claude's tagging, unconfirmed. What to make of it goes in the use line.</p></div>`;
+}
+
 function renderSource(e) {
   const isOpen = state.open.has(e.id);
   const meta = [
@@ -188,7 +197,9 @@ function renderSource(e) {
   ].filter(Boolean).map(esc).join(' · ');
 
   const unchecked = !(e.ai && e.ai.checked_on);
+  const feels = valuesOf.feeling(e).filter((f) => f !== 'none');
   const marks = [
+    ...feels.map((f) => `<span class="feel" data-feel="${f}">${f}</span>`),
     e.numbers.length && `<span>${e.numbers.length} figure${e.numbers.length > 1 ? 's' : ''}</span>`,
     e.leads.length && `<span>${e.leads.length} lead${e.leads.length > 1 ? 's' : ''}</span>`,
     e.verify.length && `<span class="v">${e.verify.length} to verify</span>`,
@@ -218,6 +229,7 @@ function renderSource(e) {
         <ul>${e.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul>
       </div>
       <div class="aside">
+        ${bears(e)}
         ${figs}
         ${list('verify', 'Verify', e.verify)}
         ${list('leads', 'Leads', e.leads)}
@@ -285,7 +297,7 @@ function renderQuestions() {
   const how = `<p class="sub">Tim's research questions, in his words exactly as captured. Two ways to add one: send it in a chat with Claude, or email yourself with <b>WB Q</b> at the start of the subject. The nightly run files those.</p>`;
   if (!questions.length) return `<section class="plain"><h2>Questions</h2>${how}<p class="empty-inline">No questions captured yet.</p></section>`;
   return `<section class="plain"><h2>Questions <span class="n">${questions.length}</span></h2>${how}
-    <ol class="qs">${questions.map((q) => `<li><p class="q">${esc(q.text)}</p><p class="qmeta">${esc(q.id)} · ${esc(fmtDate(q.captured))} · via ${esc(q.via)} · ${esc(q.status)}${(q.sources || []).length ? ' · ' + q.sources.map((s) => `<a href="#act-${esc(s)}">No. ${esc(s)}</a>`).join(', ') : ''}</p></li>`).join('')}</ol>
+    <ol class="qs">${questions.map((q) => `<li><p class="q">${esc(q.text)}</p><p class="qmeta">${esc(q.id)} · ${esc(q.tier || 'tier not set')} · answered by ${esc(q.answered_by || 'not set')} · ${esc(fmtDate(q.captured))} · via ${esc(q.via)} · ${esc(q.status)}${(q.sources || []).length ? ' · ' + q.sources.map((s) => `<a href="#act-${esc(s)}">No. ${esc(s)}</a>`).join(', ') : ''}</p></li>`).join('')}</ol>
   </section>`;
 }
 
@@ -312,17 +324,26 @@ function renderAiLog() {
 
 function renderStats() {
   const all = data.entries;
-  const leads = all.reduce((a, e) => a + e.leads.length, 0);
   const verify = all.reduce((a, e) => a + e.verify.length, 0);
   const checked = all.filter((e) => e.ai && e.ai.checked_on).length;
   const used = all.filter((e) => e.use).length;
+  const feel = (f) => all.filter((e) => valuesOf.feeling(e).includes(f)).length;
   $('#stats').innerHTML = `
     <button type="button" class="stat" data-go="sources"><b>${all.length}</b><span>sources</span></button>
+    <button type="button" class="stat feel-stat" data-feel="scoundrel" data-go="feel-scoundrel"><b>${feel('scoundrel')}</b><span>bear on scoundrel</span></button>
+    <button type="button" class="stat feel-stat" data-feel="pride" data-go="feel-pride"><b>${feel('pride')}</b><span>bear on pride</span></button>
     <button type="button" class="stat warn" data-go="docket"><b>${verify}</b><span>to verify</span></button>
-    <button type="button" class="stat" data-go="docket"><b>${leads}</b><span>open leads</span></button>
     <button type="button" class="stat" data-go="unchecked"><b>${checked} of ${all.length}</b><span>checked by Tim</span></button>
     <button type="button" class="stat" data-go="blank"><b>${used} of ${all.length}</b><span>uses written</span></button>
     <button type="button" class="stat" data-go="questions"><b>${questions.length}</b><span>questions</span></button>`;
+}
+
+function renderPrimary() {
+  const q = questions.find((x) => x.tier === 'primary');
+  const el = $('#primary');
+  if (!q) { el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `<span class="pq-label">Primary question</span><q class="pq">${esc(q.text)}</q><span class="pq-who">Tim, ${esc(fmtDate(q.captured))}</span>`;
 }
 
 function render() {
@@ -431,7 +452,12 @@ function wire() {
     const b = ev.target.closest('[data-go]');
     if (!b) return;
     const go = b.dataset.go;
-    if (go === 'blank' || go === 'unchecked') {
+    if (go.startsWith('feel-')) {
+      clearFilters();
+      state.feeling.add(go.slice(5));
+      renderFilters();
+      location.hash === '#sources' ? render() : (location.hash = 'sources');
+    } else if (go === 'blank' || go === 'unchecked') {
       clearFilters();
       (go === 'blank' ? state.use : state.checked).add(go === 'blank' ? 'blank' : 'unchecked');
       renderFilters();
@@ -464,6 +490,7 @@ async function boot() {
   try { ailog = (await load('ai-log.json')).entries || []; } catch { ailog = []; }
   $('#updated').textContent = fmtDate(data.meta.updated);
   $('#sort').innerHTML = Object.entries(SORTS).map(([k, s]) => `<option value="${k}">${s.name}</option>`).join('');
+  renderPrimary();
   renderStats();
   renderFilters();
   wire();

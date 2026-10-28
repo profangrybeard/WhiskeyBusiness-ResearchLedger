@@ -72,6 +72,26 @@
       "instead": "Tim set the citation style (new and light, MLA 9), the AI documentation practice (AI 201 ESF), and deferred research questions to his own weekend work.",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L005",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Frame the research questions. Tim set the primary question himself and is combing sources for ways to produce SCOUNDREL and PRIDE in the product.",
+      "produced": "Filed the question verbatim as Q001. Tagged each source for scoundrel and pride with a pointer to the material, marked as unconfirmed. Added the question to the top of the ledger, a Bears on filter, and feeling counts.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
+    },
+    {
+      "id": "L006",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Unblock archive saves to the Wayback Machine.",
+      "produced": "Retried after Tim's go-ahead. The Wayback Machine is blocked for the fetch tool itself, so no snapshots were saved. Tim was given the six pages to save by hand.",
+      "outcome": "changed",
+      "why": "",
+      "commits": []
     }
   ]
 }

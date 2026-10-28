@@ -1,4 +1,15 @@
 {
-  "about": "Tim's research questions, kept in his own words exactly as captured. Nothing here is drafted or edited by Claude. Status is open, working or set.",
-  "questions": []
+  "about": "Tim's research questions, kept in his own words exactly as captured. Nothing here is drafted or edited by Claude. Tier is primary, sub or inquiry. Answered by is source, build or playtest. Tier, answered_by and status are Tim's to set.",
+  "questions": [
+    {
+      "id": "Q001",
+      "captured": "2026-10-28",
+      "via": "chat",
+      "text": "the primary question is how do we make a player feel SCOUNDREL and secondarily PRIDE in the product. That can be oppositional and complimentary.",
+      "tier": "primary",
+      "answered_by": "",
+      "sources": [],
+      "status": "open"
+    }
+  ]
 }

@@ -21,7 +21,12 @@
       "place",
       "family"
     ],
-    "citation_style": "MLA 9"
+    "citation_style": "MLA 9",
+    "feelings": {
+      "scoundrel": "SCOUNDREL",
+      "pride": "PRIDE in the product"
+    },
+    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches SCOUNDREL or PRIDE in the product. It is unconfirmed and is not a design idea. What to do with it goes in the use line, which is Tim's."
   },
   "entries": [
     {
@@ -51,6 +56,20 @@
         "hauling",
         "money",
         "women"
+      ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Sheriffs resold seized liquor, sat on warrants until the suspect was warned, and pulled a roadblock so two loads could pass."
+        },
+        {
+          "feeling": "scoundrel",
+          "evidence": "Protection money paid through the sheriff's wife."
+        },
+        {
+          "feeling": "scoundrel",
+          "evidence": "Sharpe as the block car, and as a legend among hill people."
+        }
       ],
       "url": "https://www.newspapers.com/image/827941122/",
       "cite": {
@@ -152,6 +171,16 @@
         "protection",
         "women"
       ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "A tip-off before a raid, a caught hauler fined and driving his car home the same day, stills cut but the men never caught."
+        },
+        {
+          "feeling": "scoundrel",
+          "evidence": "Her path from selling drinks to hauling to piloting."
+        }
+      ],
       "url": "https://www.newspapers.com/image/796379159/",
       "cite": {
         "author": "",
@@ -245,6 +274,12 @@
         "law",
         "craft"
       ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Model As rebuilt for hauling: hidden compartments, a kill switch for the brake lights, convoys of up to ten cars."
+        }
+      ],
       "url": "https://blueridgetales.com/willie-carter-sharpe-the-rum-running-queen-of-virginia/",
       "cite": {
         "author": "Jordan, Wayne",
@@ -319,6 +354,12 @@
         "women",
         "law",
         "money"
+      ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Women carrying liquor on their bodies, daring officers to search them, and juries that would not convict grandmothers."
+        }
       ],
       "url": "https://www.alcoholproblemsandsolutions.org/women-bootleggers-during-prohibition-there-were-many/",
       "cite": {
@@ -398,6 +439,12 @@
         "hauling",
         "place"
       ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Cheryl's euphemisms for the family trade: the refreshment business, their own economic development."
+        }
+      ],
       "url": "",
       "cite": {
         "type": "email",
@@ -463,6 +510,12 @@
         "church",
         "law"
       ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Stills protected by terrain only a horse could reach, and a mountain closed to outsiders except doctors and midwives."
+        }
+      ],
       "url": "http://fbwg-hiking.blogspot.com/2017/04/buffalo-mountain-virginia.html",
       "cite": {
         "type": "email",
@@ -527,6 +580,12 @@
         "church",
         "family"
       ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "A Primitive Baptist funeral with caskets full of liquor. Members could drink it, just not sell it."
+        }
+      ],
       "url": "",
       "cite": {
         "type": "email",
@@ -590,6 +649,16 @@
         "money",
         "hauling",
         "place"
+      ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Sugar bought through bakeries as cover, protection money directed by the Commonwealth's Attorney."
+        },
+        {
+          "feeling": "pride",
+          "evidence": "A convicted hauler's grandson runs a legal distillery today on the family name."
+        }
       ],
       "url": "https://www.visitroanokeva.com/blog/post/local-history-franklin-county-virginia-moonshine-capital-of-the-world/",
       "cite": {
@@ -680,6 +749,12 @@
       "themes": [
         "place"
       ],
+      "bears_on": [
+        {
+          "feeling": "pride",
+          "evidence": "Legal craft distilleries on the trail sell the moonshine heritage as their product."
+        }
+      ],
       "url": "https://www.lifeinsova.com/mountainspirittrail/",
       "cite": {
         "author": "",
@@ -727,6 +802,7 @@
       "counties": [],
       "people": [],
       "themes": [],
+      "bears_on": [],
       "url": "https://www.newspapers.com/image/760670515/",
       "cite": {
         "author": "",
@@ -779,6 +855,20 @@
         "hauling",
         "law",
         "place"
+      ],
+      "bears_on": [
+        {
+          "feeling": "scoundrel",
+          "evidence": "Jars made for the trade held a cup and a half short of a half gallon."
+        },
+        {
+          "feeling": "pride",
+          "evidence": "A seized copper still kept on the courthouse lawn because it was too well made to destroy."
+        },
+        {
+          "feeling": "pride",
+          "evidence": "Catching the first cup off the still and drinking it."
+        }
       ],
       "url": "https://www.floydtimes.com/backstories-and-backyards-distilling/",
       "cite": {
