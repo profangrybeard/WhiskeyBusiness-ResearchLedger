@@ -92,6 +92,16 @@
       "outcome": "changed",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L007",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Fix the capitalization and grammar of the primary question.",
+      "produced": "Capitalized the opening, changed \"how do we make\" to \"how we make\", \"That\" to \"They\", and \"complimentary\" to \"complementary\". The captured wording is kept in the question's original field.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
     }
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "about": "Tim's research questions, kept in his own words exactly as captured. Nothing here is drafted or edited by Claude. Tier is primary, sub or inquiry. Answered by is source, build or playtest. Tier, answered_by and status are Tim's to set.",
+  "about": "Tim's research questions, kept in his own words. Claude never drafts or rewords a question. When Tim asks for a cleanup, only capitalization, spelling and grammar change, and the captured wording stays in original. Tier is primary, sub or inquiry. Answered by is source, build or playtest. Tier, answered_by and status are Tim's to set.",
   "questions": [
     {
       "id": "Q001",
       "captured": "2026-10-28",
       "via": "chat",
-      "text": "the primary question is how do we make a player feel SCOUNDREL and secondarily PRIDE in the product. That can be oppositional and complimentary.",
+      "text": "The primary question is how we make a player feel SCOUNDREL, and secondarily PRIDE in the product. They can be oppositional and complementary.",
       "tier": "primary",
       "answered_by": "",
       "sources": [],
-      "status": "open"
+      "status": "open",
+      "original": "the primary question is how do we make a player feel SCOUNDREL and secondarily PRIDE in the product. That can be oppositional and complimentary.",
+      "edited": "2026-10-28, capitalization and grammar, at Tim's request"
     }
   ]
 }
