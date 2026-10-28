@@ -132,6 +132,16 @@
       "outcome": "kept",
       "why": "\"thesis is county - i'll grow it if this game reaches it's 13 year arc\" and \"yes i need the two axis\"",
       "commits": []
+    },
+    {
+      "id": "L011",
+      "date": "2026-10-28",
+      "type": "direction",
+      "asked": "Add family to the trust scale, and file Tim's reworded primary question.",
+      "produced": "Q001 updated in Tim's words, earlier wording kept in previous. Family added below county on the trust scale, in the ledger filter, the filing rules and the nightly run. No source is tagged family yet.",
+      "outcome": "kept",
+      "why": "",
+      "commits": []
     }
   ]
 }

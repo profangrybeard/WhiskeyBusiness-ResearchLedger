@@ -27,8 +27,9 @@
       "pride": "PRIDE in the product",
       "trust": "Trust, the second pillar (working name)"
     },
-    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches OUTLAW, PRIDE in the product, or trust. Trust tags also note the scale (county, state, federal) and, where the source shows one, which of Tim's willingnesses it is. Unconfirmed, and not a design idea. What to do with it goes in the use line, which is Tim's.",
+    "bears_on_note": "Bears on is Claude's tagging: a pointer to material in the source that touches OUTLAW, PRIDE in the product, or trust. Trust tags also note the scale (family, county, state, federal) and, where the source shows one, which of Tim's willingnesses it is. Unconfirmed, and not a design idea. What to do with it goes in the use line, which is Tim's.",
     "scales": [
+      "family",
       "county",
       "state",
       "federal"
