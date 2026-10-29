@@ -180,6 +180,16 @@
       "outcome": "",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L016",
+      "date": "2026-10-29",
+      "type": "direction",
+      "asked": "Apply the license rule set Tim approved across his GitHub repos: personal work is all rights reserved.",
+      "produced": "A License section in the README stating all rights reserved, with cited sources left to their authors.",
+      "outcome": "",
+      "why": "",
+      "commits": []
     }
   ]
 }
