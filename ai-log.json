@@ -190,6 +190,18 @@
       "outcome": "",
       "why": "",
       "commits": []
+    },
+    {
+      "id": "L017",
+      "date": "2026-10-31",
+      "type": "direction",
+      "asked": "Nightly filing run",
+      "produced": "Filed Cheryl's Saveur email as entry 016, women rumrunners by sea, rechecked against the page today. Merged her follow-up note on Willie's birth name into 002 as a lead and a verify item. No WB Q emails. Reading Notes had three books and no notes to sync. Push blocked: the ledger repo was not attached to the session.",
+      "outcome": "kept",
+      "why": "",
+      "commits": [
+        "ec834a6"
+      ]
     }
   ]
 }
