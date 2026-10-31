@@ -2,7 +2,7 @@
 
 **Open the ledger: https://profangrybeard.github.io/WhiskeyBusiness-ResearchLedger/**
 
-Version 0.1.5 · Updated October 29, 2026
+Version 0.1.6 · Updated October 31, 2026
 
 The sources behind Whiskey Business, a game about Prohibition-era moonshine in Carroll County, Virginia, by Tim Lindsey. Each source is one numbered entry with an MLA 9 citation, a trust grade, figures, open leads, and the claims still to verify.
 

@@ -2,7 +2,7 @@
   "meta": {
     "title": "Research Ledger",
     "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are notes written by Claude and paraphrased, not copies; each records whether Tim has checked it against the original. The use and design fields are Tim's alone.",
-    "updated": "2026-10-28",
+    "updated": "2026-10-31",
     "trust": {
       "primary": "Written at the time. Newspapers, court records, census.",
       "secondary": "A later history, article or museum page. Check its sources.",
@@ -287,11 +287,13 @@
       "use": "",
       "leads": [
         "The Blackwater filling station as a meeting point for caravans.",
-        "The story continues past the page. The Bristol run of the same wire story (015) is complete on one page and fills most of the gap."
+        "The story continues past the page. The Bristol run of the same wire story (015) is complete on one page and fills most of the gap.",
+        "Cheryl's follow-up note (2026-10-28): she says Willie was born Billie Collins. Family research, not yet sourced."
       ],
       "verify": [
         "Her gallon total runs 65,000 (one supplier, 001), nearly 200,000 (002), 145,000 to 250,000 (003), and 220,000 (004). Pick a sourced number before using one.",
-        "She says she piloted until July 1931. Other accounts put her arrest in May 1931."
+        "She says she piloted until July 1931. Other accounts put her arrest in May 1931.",
+        "Birth name Billie Collins rests only on Cheryl's note. No entry gives a birth name yet. Check a birth record, the 1910 or 1920 Floyd County census, or her marriage record to Floyd Carter."
       ],
       "ai": {
         "summarized_by": "Claude (Opus 5.5)",
@@ -1380,6 +1382,111 @@
         "summarized_by": "Claude (Opus 5.5)",
         "summarized_on": "2026-10-28",
         "from": "the clipping image on Newspapers.com, read in Tim's browser",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "reading": []
+    },
+    {
+      "id": "016",
+      "kind": "article",
+      "title": "Meet the Swashbuckling Female Rumrunners who Ran Prohibition",
+      "outlet": "Saveur, Sarah Baird",
+      "source_date": "2015-07-02",
+      "period": "1920 to 1933",
+      "counties": [],
+      "people": [
+        "Gertrude \"Cleo\" Lythgoe",
+        "Marie Waite",
+        "Gloria de Cesares",
+        "Bill McCoy"
+      ],
+      "themes": [
+        "hauling",
+        "law",
+        "money",
+        "women"
+      ],
+      "bears_on": [
+        {
+          "feeling": "outlaw",
+          "evidence": "Lythgoe was arrested several times and never convicted, hard on competitors, and still respected by a rival smuggler."
+        },
+        {
+          "feeling": "outlaw",
+          "evidence": "Spanish Marie entered the trade after rivals killed her husband, then ran a fleet that outpaced the Coast Guard."
+        },
+        {
+          "feeling": "pride",
+          "evidence": "Lythgoe allegedly threatened to shoot a man for speaking badly of liquor. One line, no detail."
+        },
+        {
+          "feeling": "trust",
+          "scale": "federal",
+          "willingness": "",
+          "evidence": "The Coast Guard as the opponent at sea: Waite outran it, de Cesares was caught in international waters and sent back with a light penalty."
+        }
+      ],
+      "url": "https://www.saveur.com/rumrunners/",
+      "cite": {
+        "author": "Baird, Sarah",
+        "title": "Meet the Swashbuckling Female Rumrunners who Ran Prohibition",
+        "container": "Saveur",
+        "place": "",
+        "publisher": "",
+        "date": "2015-07-02",
+        "pages": "",
+        "database": "",
+        "url": "https://www.saveur.com/rumrunners/",
+        "accessed": "2026-10-31",
+        "type": "web",
+        "archive": ""
+      },
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-10-29",
+      "trust": "secondary",
+      "summary": [
+        "A short magazine feature on women in the Prohibition rum trade by sea, out of the Bahamas, Cuba and Florida. Nothing on Appalachia, Virginia, moonshine or Savannah.",
+        "Gertrude \"Cleo\" Lythgoe was a stenographer for a British liquor importer in New York. She set up a wholesale liquor business in Nassau and ran spirits to the United States. The article calls her the Queen of Rum Row and the only woman with so large a liquor license there.",
+        "She was arrested several times and never convicted. The smuggler Bill McCoy, named Billy here, respected her and remembered her fury. She believed a jinx was out to kill her and retired in 1925. She died in Los Angeles at 86.",
+        "Marie Waite, Spanish Marie, entered the trade in 1926 after rival rum runners killed her husband on Biscayne Bay. She reportedly ran four boats between Havana and Key West and 15 radio-equipped speedboats off south Florida, and was said to lead the trade by 1927 with earnings near $1 million.",
+        "Gloria de Cesares, an Argentinian navigator in her twenties, founded the Gloria Steamship Company and sailed a five-masted ship of liquor from Havana. The Coast Guard caught her in international waters and sent her back with a light penalty, which ended the venture.",
+        "The article closes by linking these women to two present-day rum figures, Katie Darling of Old New Orleans Rum and Lynnette Marrero."
+      ],
+      "numbers": [
+        {
+          "what": "Spanish Marie's boats, Havana to Key West",
+          "value": "4"
+        },
+        {
+          "what": "Spanish Marie's radio-equipped speedboats",
+          "value": "15"
+        },
+        {
+          "what": "Spanish Marie's reported earnings by 1927",
+          "value": "close to $1 million"
+        },
+        {
+          "what": "Year Lythgoe retired",
+          "value": "1925"
+        }
+      ],
+      "use": "",
+      "leads": [
+        "Cheryl's note: on a recent trip to Savannah she saw a Prohibition museum in the City Market.",
+        "Cheryl's note: Appalachia's answer to a speakeasy was a swig behind the cow barn. Family humor, not a source.",
+        "Lythgoe's 1926 account of beating her jinx, which the article quotes. Find the original."
+      ],
+      "verify": [
+        "No sources cited. Every figure is \"reportedly\". Treat the $1 million and the fleet counts as lore until a primary source backs them.",
+        "The article says Billy McCoy. The Rum Row smuggler is usually Bill McCoy. Confirm it is the same man.",
+        "Sea smuggling, not mountain liquor. Do not carry its numbers into Carroll County."
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-10-31",
+        "from": "the web page",
         "checked_by_tim": "",
         "checked_on": ""
       },
