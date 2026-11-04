@@ -2,7 +2,7 @@
   "meta": {
     "title": "Research Ledger",
     "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are notes written by Claude and paraphrased, not copies; each records whether Tim has checked it against the original. The use and design fields are Tim's alone.",
-    "updated": "2026-10-31",
+    "updated": "2026-11-04",
     "trust": {
       "primary": "Written at the time. Newspapers, court records, census.",
       "secondary": "A later history, article or museum page. Check its sources.",
@@ -1487,6 +1487,63 @@
         "summarized_by": "Claude (Opus 5.5)",
         "summarized_on": "2026-10-31",
         "from": "the web page",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "reading": []
+    },
+    {
+      "id": "017",
+      "kind": "article",
+      "title": "Why every man feared the 'Moonshine Queen of Appalachia'",
+      "outlet": "NewsBreak, Survival World channel",
+      "source_date": "",
+      "period": "",
+      "counties": [],
+      "people": [
+        "Mahalia Mullins"
+      ],
+      "themes": [
+        "women"
+      ],
+      "bears_on": [],
+      "url": "https://www.newsbreak.com/survival-world-358566355/4472846183435-why-every-man-feared-the-moonshine-queen-of-appalachia",
+      "cite": {
+        "author": "",
+        "title": "Why every man feared the 'Moonshine Queen of Appalachia'",
+        "container": "NewsBreak",
+        "place": "",
+        "publisher": "",
+        "date": "",
+        "pages": "",
+        "database": "",
+        "url": "https://www.newsbreak.com/survival-world-358566355/4472846183435-why-every-man-feared-the-moonshine-queen-of-appalachia",
+        "accessed": "",
+        "type": "web",
+        "archive": ""
+      },
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-11-03",
+      "trust": "unread",
+      "summary": [
+        "Not read yet. The page could not be opened on the nightly run, so nothing here comes from the article. Title is from the email subject, channel name from the link."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Cheryl's note: she first took the story for an AI generated joke, then found other articles about Mahalia Mullins.",
+        "Cheryl's note: she finds the story less adventurous than Willie Sharpe's (see 001, 002, 003, 015).",
+        "Better sources turned up by a web search, not yet read: West Virginia Public Broadcasting, \"The True(ish) Story of Tennessee Moonshiner Mahalia Mullins\" (https://wvpublic.org/the-trueish-story-of-tennessee-moonshiner-mahalia-mullins), and The Bluegrass Standard, \"Mahalia Collins Mullins: The Appalachian Moonshine Queen\" (https://thebluegrassstandard.com/post/mahalia-collins-mullins-the-appalachian-moonshine-queen)."
+      ],
+      "verify": [
+        "NewsBreak is an aggregator and the channel name suggests reposted content. Author, date and original source unknown. Cheryl herself suspected AI. Treat it as weaker than it looks, and prefer the WVPB piece once read.",
+        "The WVPB headline places her in Tennessee and calls the story true(ish). Not Carroll County. Check the place and the legend before using anything."
+      ],
+      "ai": {
+        "summarized_by": "",
+        "summarized_on": "",
+        "from": "nothing yet, not read",
         "checked_by_tim": "",
         "checked_on": ""
       },
