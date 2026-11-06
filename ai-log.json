@@ -214,6 +214,18 @@
       "commits": [
         "70efb16"
       ]
+    },
+    {
+      "id": "L019",
+      "date": "2026-11-06",
+      "type": "direction",
+      "asked": "Nightly filing run",
+      "produced": "Read one new email from Cheryl. It was family news about a staff page in Montana, not research, so it was labeled and recorded in filed.json as skipped. No catalogue entries added. No WB Q emails. Reading Notes had three books and no notes to sync.",
+      "outcome": "kept",
+      "why": "",
+      "commits": [
+        "ca36f49"
+      ]
     }
   ]
 }
