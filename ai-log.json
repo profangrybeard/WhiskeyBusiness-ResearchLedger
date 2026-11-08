@@ -226,6 +226,18 @@
       "commits": [
         "ca36f49"
       ]
+    },
+    {
+      "id": "L020",
+      "date": "2026-11-08",
+      "type": "direction",
+      "asked": "Nightly filing run",
+      "produced": "Read one new email from Cheryl. It asked for birthday gift ideas, not research, so it was labeled and recorded in filed.json as skipped. No catalogue entries added. No WB Q emails. Reading Notes had three books and no notes to sync.",
+      "outcome": "kept",
+      "why": "",
+      "commits": [
+        "e5d1ea3"
+      ]
     }
   ]
 }
