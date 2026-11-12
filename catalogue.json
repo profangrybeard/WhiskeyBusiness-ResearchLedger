@@ -2,7 +2,7 @@
   "meta": {
     "title": "Research Ledger",
     "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are notes written by Claude and paraphrased, not copies; each records whether Tim has checked it against the original. The use and design fields are Tim's alone.",
-    "updated": "2026-11-08",
+    "updated": "2026-11-12",
     "trust": {
       "primary": "Written at the time. Newspapers, court records, census.",
       "secondary": "A later history, article or museum page. Check its sources.",
@@ -544,7 +544,8 @@
       "use": "",
       "leads": [
         "Census and death records for Effie Margaret Stoots McGee.",
-        "Any Stoots names in Wythe or Carroll court records, 1916 to 1933."
+        "Any Stoots names in Wythe or Carroll court records, 1916 to 1933.",
+        "Cheryl later sent a land listing on Stoots Mountain Rd. See 018 for what other listing sites say about the parcel and its county."
       ],
       "verify": [
         "The AI summary puts Austinville in Carroll County. Austinville and Lead Mines Road are in Wythe County. Check which county the mountain sits in.",
@@ -1544,6 +1545,68 @@
         "summarized_by": "",
         "summarized_on": "",
         "from": "nothing yet, not read",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "reading": []
+    },
+    {
+      "id": "018",
+      "kind": "web",
+      "title": "Land for sale on Stoots Mountain Road, Austinville",
+      "outlet": "Real estate listing on homes.swvarealty.com, sent by Cheryl Lindsey",
+      "source_date": "",
+      "period": "present day",
+      "counties": [
+        "Carroll",
+        "Wythe"
+      ],
+      "people": [],
+      "themes": [
+        "place",
+        "family"
+      ],
+      "bears_on": [],
+      "url": "https://homes.swvarealty.com/idx/details/listing/b441/109151/",
+      "cite": {
+        "author": "",
+        "title": "TBD Stoots Mountain Rd., Austinville, VA - Land For Sale",
+        "container": "homes.swvarealty.com",
+        "place": "",
+        "publisher": "",
+        "date": "",
+        "pages": "",
+        "database": "",
+        "url": "https://homes.swvarealty.com/idx/details/listing/b441/109151/",
+        "accessed": "",
+        "type": "web",
+        "archive": ""
+      },
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-11-11",
+      "trust": "unread",
+      "summary": [
+        "Not read yet. The linked listing page could not be opened on the nightly run, so nothing here comes from it. The title is from the link preview in the email.",
+        "Cheryl sent the link with no note beyond signing off. It came with a preview image, b441.jpeg, kept in Gmail.",
+        "Related to the Stoots Mountain family thread in 005."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Two other sites list land on TBD Stoots Mountain Rd, Austinville. They may or may not be the listing Cheryl sent. Read on the run, not checked by Tim.",
+        "Crexi lists a 175 acre tract on top of Stoots Mountain, brokered by Collins and Associates Realty. It describes a remote high ridge with long views, near the New River and the New River Trail, with a wind energy lease on it. No history given. https://www.crexi.com/properties/2419766/virginia-tbd-stoots-mountain-rd",
+        "LandSearch shows two Stoots Mountain Rd parcels, 175 acres and 32.2 acres (pending), and tags both Carroll County. https://landsearch.com/properties/stoots-mountain-rd-austinville-va-24312/3499201",
+        "Open Cheryl's link by hand to see which parcel she meant and whether the listing says anything about the land's past."
+      ],
+      "verify": [
+        "LandSearch puts Stoots Mountain Rd in Carroll County, though Austinville itself is in Wythe. That bears on the open county question in 005. A listing site's county tag is weak evidence. Check a county parcel map before relying on it.",
+        "A modern real estate listing says nothing about the 1920s. Use it for the lay of the land only."
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-11-12",
+        "from": "Cheryl's email and the link preview. The leads come from the Crexi and LandSearch pages, not from the linked listing.",
         "checked_by_tim": "",
         "checked_on": ""
       },
