@@ -250,6 +250,18 @@
       "commits": [
         "9dddbef"
       ]
+    },
+    {
+      "id": "L022",
+      "date": "2026-11-13",
+      "type": "direction",
+      "asked": "Nightly filing run",
+      "produced": "Read one new email from Cheryl, a link to a summit photo of Buffalo Mountain. The image link would not open on the run. Since it is the same place as entry 006, it was added there as a lead, not filed as a new entry. No WB Q emails. Reading Notes had three books and no notes to sync.",
+      "outcome": "kept",
+      "why": "",
+      "commits": [
+        "2b49d0a"
+      ]
     }
   ]
 }
