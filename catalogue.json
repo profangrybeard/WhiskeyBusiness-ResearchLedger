@@ -2,7 +2,7 @@
   "meta": {
     "title": "Research Ledger",
     "about": "Sources behind Whiskey Business. Each entry is one source. Summaries are notes written by Claude and paraphrased, not copies; each records whether Tim has checked it against the original. The use and design fields are Tim's alone.",
-    "updated": "2026-11-13",
+    "updated": "2026-11-16",
     "trust": {
       "primary": "Written at the time. Newspapers, court records, census.",
       "secondary": "A later history, article or museum page. Check its sources.",
@@ -1238,7 +1238,8 @@
       "leads": [
         "Get the title and author for the citation.",
         "A Lindsey sat on the jury that convicted Floyd Allen on the day of the shooting.",
-        "Rev. Bob Childress (No. 006) may have witnessed it."
+        "Rev. Bob Childress (No. 006) may have witnessed it.",
+        "Cheryl's notes and map of the Allen family in Cana are in 019 and 020. She recalls the Lindsey juror being shot, she believes in the ear."
       ],
       "verify": [],
       "reading": []
@@ -1608,6 +1609,172 @@
         "summarized_by": "Claude (Opus 5.5)",
         "summarized_on": "2026-11-12",
         "from": "Cheryl's email and the link preview. The leads come from the Crexi and LandSearch pages, not from the linked listing.",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "reading": []
+    },
+    {
+      "id": "019",
+      "kind": "clipping",
+      "title": "Evening Republican, April 27, 1912 (Allen family clipping)",
+      "outlet": "Evening Republican, on Hoosier State Chronicles, sent by Cheryl Lindsey as a PDF and a link",
+      "source_date": "1912-04-27",
+      "period": "1912",
+      "counties": [
+        "Carroll"
+      ],
+      "people": [
+        "Sidna Allen"
+      ],
+      "themes": [
+        "law",
+        "family",
+        "place"
+      ],
+      "bears_on": [
+        {
+          "feeling": "outlaw",
+          "evidence": "Cheryl's note, not the clipping: she calls the Allens of Cana a gang, with bootlegging only the tip of the iceberg, rougher than the Bondurants of 012."
+        },
+        {
+          "feeling": "trust",
+          "scale": "family",
+          "willingness": "",
+          "evidence": "Cheryl's note ties the Allens to the 1912 Hillsville Courthouse shooting, a Carroll family against the court. Unread, so the clipping's own content is unknown."
+        }
+      ],
+      "url": "",
+      "cite": {
+        "type": "newspaper",
+        "author": "",
+        "title": "",
+        "container": "Evening Republican",
+        "place": "",
+        "publisher": "",
+        "date": "1912-04-27",
+        "pages": "",
+        "database": "Hoosier State Chronicles",
+        "url": "",
+        "accessed": "",
+        "archive": ""
+      },
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-11-15",
+      "trust": "unread",
+      "summary": [
+        "Not read yet. Cheryl sent the clipping as a PDF attachment, newspapers.library.in.gov.pdf, under the subject \"Allen Family Distillery in Cana, VA 1912 Article.\" The connector can't download attachments.",
+        "Her link to the page on Hoosier State Chronicles is a one-time PDF link too long for the run to open. The title, headline and page come from the email subject and the link only.",
+        "In a second email the same afternoon, Cheryl wrote the notes below. They are her words paraphrased, not the clipping's.",
+        "Cana, Virginia, on Route 52 toward Hillsville, was home to the Allen family. The old Sidna Allen Victorian house still stands on 52.",
+        "She says the Allens were behind the 1912 Hillsville Courthouse shooting, and that a Lindsey on the jury that day was shot, she believes in the ear."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Tim to drop the PDF into chat so it can be read and cited. The original stays in Gmail under Whiskey Business/Research.",
+        "The link's page id is EVRP19120427.1.2, which reads as page 2 of the April 27, 1912 issue. Confirm the page, the headline and the paper's city from the masthead.",
+        "Cheryl's earlier photos of Cana, sent the same afternoon, did not turn up in the search. Ask where they went.",
+        "See 020 for Cheryl's map of the Allen homes along Route 52, and 014 for the courthouse book."
+      ],
+      "verify": [
+        "The email subject says the article is about an Allen family distillery in Cana. Nothing on the run confirms that. It may be her framing, not the headline.",
+        "A Lindsey juror shot in the ear rests on Cheryl's memory (\"I believe\"). 014 records only that a Lindsey sat on the jury. Check against trial records or the courthouse book.",
+        "The comparison to the Bondurants is Cheryl's opinion, not the paper's."
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-11-16",
+        "from": "Cheryl's two emails, the email subject and the link. Not the clipping.",
+        "checked_by_tim": "",
+        "checked_on": ""
+      },
+      "design": [],
+      "reading": []
+    },
+    {
+      "id": "020",
+      "kind": "family",
+      "title": "Map for the Allen Family in Cana just off Route 52",
+      "outlet": "Email from Cheryl Lindsey, with a marked map photo",
+      "source_date": "2026-11-15",
+      "period": "1910 to 1935",
+      "counties": [
+        "Carroll"
+      ],
+      "people": [
+        "Floyd Allen",
+        "Claude Allen"
+      ],
+      "themes": [
+        "place",
+        "family",
+        "hauling",
+        "law"
+      ],
+      "bears_on": [
+        {
+          "feeling": "outlaw",
+          "evidence": "Little Bear Road climbs from Route 52 into hills where Cheryl places the stills, near a main road, with the liquor carried on to cities in Virginia and North Carolina."
+        },
+        {
+          "feeling": "outlaw",
+          "evidence": "Hills steep enough that a modern car got stuck, which she reads as ground that kept revenuers out."
+        },
+        {
+          "feeling": "trust",
+          "scale": "family",
+          "willingness": "",
+          "evidence": "The Allen brothers lived in a row along Route 52, marked by number on her map."
+        }
+      ],
+      "url": "",
+      "cite": {
+        "type": "email",
+        "author": "Lindsey, Cheryl",
+        "title": "Map for the Allen Family in Cana just off Route 52",
+        "container": "",
+        "place": "",
+        "publisher": "",
+        "date": "2026-11-15",
+        "pages": "",
+        "database": "",
+        "url": "",
+        "accessed": "",
+        "recipient": "Tim Lindsey",
+        "archive": ""
+      },
+      "sent_by": "Cheryl Lindsey",
+      "sent_date": "2026-11-15",
+      "trust": "family",
+      "summary": [
+        "Cheryl's own notes on a map she marked, sent as IMG_9316.JPG. The image stays in Gmail. The run could not open it, so the map itself is not described here.",
+        "A purple dot marks where Floyd and Claude Allen are buried. She says they were executed for the Hillsville Courthouse shootings.",
+        "The Allen brothers lived along Route 52, shown by numbers on the map.",
+        "Number 4 is Little Bear Road. It leads up into the hills where she says stills would have been. A subdivision called Reflections sits there now.",
+        "Her reasoning: the spot was close to Route 52, a main route. Liquor brought down from the hills went on to large cities in Virginia and North Carolina.",
+        "She describes the valley as quiet today and anything but quiet from the 1910s to the 1930s.",
+        "From a family visit to the area: the hill roads are steep enough that a car got stuck going down."
+      ],
+      "numbers": [],
+      "use": "",
+      "leads": [
+        "Tim to look at the map in Gmail and note which number is which brother.",
+        "Little Bear Road and the Reflections area as a still site. Look for raid reports or court records naming it.",
+        "Haul routes from Cana down Route 52 into North Carolina, and toward Virginia cities.",
+        "Burial site of Floyd and Claude Allen. Find a public cemetery record for a citation.",
+        "See 019 for the 1912 clipping and 014 for the courthouse book."
+      ],
+      "verify": [
+        "Still sites on Little Bear Road are Cheryl's inference from the ground and the road, not a documented location.",
+        "She spells the name Claud. Check the spelling against public records.",
+        "The executions are as Cheryl states them. Confirm the names and date from a public record before relying on them."
+      ],
+      "ai": {
+        "summarized_by": "Claude (Opus 5.5)",
+        "summarized_on": "2026-11-16",
+        "from": "Cheryl's email text. The attached map photo was not opened.",
         "checked_by_tim": "",
         "checked_on": ""
       },
