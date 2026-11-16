@@ -262,6 +262,18 @@
       "commits": [
         "2b49d0a"
       ]
+    },
+    {
+      "id": "L023",
+      "date": "2026-11-16",
+      "type": "direction",
+      "asked": "Nightly filing run",
+      "produced": "Read three new emails from Cheryl about the Allen family of Cana. Filed 019, a 1912 Evening Republican clipping, as unread: the PDF attachment can't be downloaded and the page link was too long to open. Her notes on the Allens and the Hillsville shooting went into 019. Filed 020, her marked map of the Allen homes along Route 52 with Little Bear Road as a likely still site, as family. Added a cross reference lead to 014. No WB Q emails. Reading Notes had three books and no notes to sync.",
+      "outcome": "kept",
+      "why": "",
+      "commits": [
+        "70f9bce"
+      ]
     }
   ]
 }
